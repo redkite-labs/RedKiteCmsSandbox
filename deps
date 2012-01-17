@@ -67,6 +67,12 @@
     target=/bundles/Propel/PropelBundle
     version=origin/2.0
 
+[propelorm]
+    git=https://github.com/propelorm/propelorm.github.com.git
+
+[phing]
+    git=https://github.com/Xosofox/phing.git
+
 [ThemeEngineBundle]
     git=http://github.com/alphalemon/ThemeEngineBundle.git
     target=/bundles/AlphaLemon/ThemeEngineBundle
