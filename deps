@@ -68,7 +68,7 @@
     version=origin/2.0
 
 [propelorm]
-    git=https://github.com/propelorm/propelorm.github.com.git
+    git=https://github.com/propelorm/Propel.git
 
 [phing]
     git=https://github.com/Xosofox/phing.git
