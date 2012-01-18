@@ -69,6 +69,7 @@
 
 [propelorm]
     git=https://github.com/propelorm/Propel.git
+    target=propel
 
 [phing]
     git=https://github.com/Xosofox/phing.git
