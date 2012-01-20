@@ -16,12 +16,7 @@ $loader->registerNamespaces(array(
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
 
     'Propel'           => __DIR__.'/../vendor/bundles',
-    'AlphaLemon'                     => __DIR__.'/../vendor/bundles',
-    'AlValumUploaderCore'            => __DIR__.'/../vendor/bundles/AlphaLemon/AlValumUploaderBundle/src',
-    'ElFinderCore'                   => __DIR__.'/../vendor/bundles/AlphaLemon/ElFinderBundle/src',
-    'PageTreeCore'                   => __DIR__.'/../vendor/bundles/AlphaLemon/PageTreeBundle/src',
-    'FrontendCore'                   => __DIR__.'/../vendor/bundles/AlphaLemon/FrontendBundle/src',
-    'ThemeEngineCore'                => __DIR__.'/../vendor/bundles/AlphaLemon/ThemeEngineBundle/src',
+    'AlphaLemon'                     => __DIR__.'/../vendor/bundles',    
     'Themes'                         => __DIR__.'/../vendor/bundles/AlphaLemon/ThemeEngineBundle',
 ));
 $loader->registerPrefixes(array(
