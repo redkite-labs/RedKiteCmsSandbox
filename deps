@@ -100,7 +100,7 @@
 
 [FrontendBundle]
     git=http://github.com/alphalemon/FrontendBundle.git
-    target=/bundles/AlphaLemon/AlphaLemonCmsBundle
+    target=/bundles/AlphaLemon/FrontendBundle
 
 
 
