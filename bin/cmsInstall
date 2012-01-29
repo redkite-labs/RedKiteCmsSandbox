@@ -218,6 +218,10 @@ class Installer {
             $config .= "    resource: \"@$this->deployBundle/Resources/config/site_routing.yml\"\n\n";
 
             file_put_contents($configFile, $config . $contents);
+
+            $siteRoutingFile = $this->rootDir . "/src/$this->companyName/$this->bundleName/Resources/config/site_routing.yml";
+            $fs = new Filesystem();
+            $fs->touch($siteRoutingFile);echo $siteRoutingFile;
         }
     }
 
@@ -265,6 +269,9 @@ class Installer {
                                                                      'cache:clear',
             ));
 
-        echo "\n\nInstallation completed!\n\n";
+        echo "\n\nInstallation completed! To start up with AlphaLemonCMS you may do:\n\n";
+        echo "Open your browser at http://localhost to browse your website\n";
+        echo "Open your browser at http://localhost/alcms.php/en/index to edit your website\n";
+        echo "Open your browser at http://localhost/alcms_dev.php/en/index to edit your website in debug mode\n";
     }
 }
