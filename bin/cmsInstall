@@ -221,7 +221,7 @@ class Installer {
 
             $siteRoutingFile = $this->rootDir . "/src/$this->companyName/$this->bundleName/Resources/config/site_routing.yml";
             $fs = new Filesystem();
-            $fs->touch($siteRoutingFile);echo $siteRoutingFile;
+            $fs->touch($siteRoutingFile);
         }
     }
 
