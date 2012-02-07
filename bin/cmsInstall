@@ -21,7 +21,7 @@ use Symfony\Component\HttpKernel\Kernel;
 use Sensio\Bundle\GeneratorBundle\Manipulator\KernelManipulator;
 
 $installer = new Installer();
-$installer->install($companyName, $bundleName, $host, $database, $user, $password, $driver);
+$installer->install($companyName, $bundleName, $dsn, $database, $user, $password, $driver);
 
 /**
  * Description of installer
@@ -32,7 +32,7 @@ class Installer {
     private $deployBundle;
     private $companyName;
     private $bundleName;
-    private $host;
+    private $dsn;
     private $database;
     private $user;
     private $password;
@@ -44,11 +44,11 @@ class Installer {
     }
 
 
-    public function install($companyName, $bundleName, $host, $database, $user, $password, $driver)
+    public function install($companyName, $bundleName, $dsn, $database, $user, $password, $driver)
     {
         $this->companyName = $companyName;
         $this->bundleName = $bundleName;
-        $this->host = $host;
+        $this->dsn = $dsn;
         $this->database = $database;
         $this->user = $user;
         $this->password = $password;
@@ -190,7 +190,7 @@ class Installer {
             $config .= "        driver:               $this->driver\n";
             $config .= "        user:                 $this->user\n";
             $config .= "        password:             $this->password\n";
-            $config .= "        dsn:                  $this->driver:host=$this->host;dbname=$this->database\n";
+            $config .= "        dsn:                  $this->dsn\n";
             $config .= "        options:              {}\n";
             $config .= "        attributes:           {}\n";
             $config .= "        default_connection:   default\n\n";
@@ -229,7 +229,7 @@ class Installer {
     {
         try
         {
-            return new \PropelPDO(sprintf("%s:host=%s", $this->driver, $this->host), $this->user, $this->password);
+            return new \PropelPDO($this->dsn, $this->user, $this->password);
         }
         catch(Exception $ex)
         {
@@ -258,7 +258,7 @@ class Installer {
     {
         $kernel = new \AppKernel('alcms_dev', true);
         $kernel->boot();
-        $cmd = sprintf('alphalemon:populate %s %s --user=%s --password=%s --driver=%s', $this->host, $this->database, $this->user, $this->password, $this->driver);
+        $cmd = sprintf('alphalemon:populate %s %s --user=%s --password=%s --driver=%s', $this->dsn, $this->database, $this->user, $this->password, $this->driver);
 
         $symlink = (in_array(strtolower(PHP_OS), array('unix', 'linux'))) ? ' --symlink' : ''; 
         \AlphaLemon\PageTreeBundle\Core\Tools\AlToolkit::executeCommand($kernel, array('propel:build',

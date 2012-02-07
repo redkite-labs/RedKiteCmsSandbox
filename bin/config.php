@@ -1,7 +1,7 @@
 <?php
     $companyName = "Acme";
     $bundleName = "WebSiteBundle";
-    $host = "localhost";
+    $dsn = "mysql:host=localhost";
     $database = "alphalemon";
     $user = "root";
     $password = "";
