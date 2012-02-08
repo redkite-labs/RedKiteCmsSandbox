@@ -258,7 +258,7 @@ class Installer {
     {
         $kernel = new \AppKernel('alcms_dev', true);
         $kernel->boot();
-        $cmd = sprintf('alphalemon:populate %s %s --user=%s --password=%s --driver=%s', $this->dsn, $this->database, $this->user, $this->password, $this->driver);
+        $cmd = sprintf('alphalemon:populate %s --user=%s --password=%s', $this->dsn, $this->user, $this->password);
 
         $symlink = (in_array(strtolower(PHP_OS), array('unix', 'linux'))) ? ' --symlink' : ''; 
         \AlphaLemon\PageTreeBundle\Core\Tools\AlToolkit::executeCommand($kernel, array('propel:build',
