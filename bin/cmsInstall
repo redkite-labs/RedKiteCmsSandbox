@@ -49,6 +49,10 @@ class Installer {
         $this->companyName = $companyName;
         $this->bundleName = $bundleName;
         $this->dsn = $dsn;
+        
+        // strip the dsn from the database name because it might not be created yet
+        $this->shortDsn = preg_replace('/[;]?[\w]+=' . $database . '[;]?/', '', $dsn);
+        
         $this->database = $database;
         $this->user = $user;
         $this->password = $password;
@@ -68,8 +72,8 @@ class Installer {
     {
         $dir = realpath($this->rootDir);
         
-        $connection = $this->connectDb();
-
+        $connection = $this->connectDb($this->shortDsn);
+        
         $this->checkFolder($dir . '/vendor/propel');
         $this->checkFolder($dir . '/vendor/phing');
         $this->checkFolder($dir . '/vendor/bundles/Propel/PropelBundle');
@@ -155,7 +159,7 @@ class Installer {
     {
         if(!is_file($fileName))
         {
-            echo "\nAn error occoured. AlphaLemon CMS requires " . basename($dirName) . " installed into " . dirname($dirName) . " folder. Please install the required library then run the script again.\n";
+            echo "\nAn error occoured. AlphaLemon CMS requires " . basename($fileName) . " installed into " . dirname($fileName) . " folder. Please install the required library then run the script again.\n";
             die;
         }
     }
@@ -169,6 +173,9 @@ class Installer {
         $fs->copy($this->rootDir . '/vendor/bundles/AlphaLemon/AlphaLemonCmsBundle/Resources/environments/config/config_alcms_dev.yml', $this->rootDir . '/app/config/config_alcms_dev.yml', true);
         $fs->copy($this->rootDir . '/vendor/bundles/AlphaLemon/AlphaLemonCmsBundle/Resources/environments/config/routing_alcms.yml', $this->rootDir . '/app/config/routing_alcms.yml', true);
         $fs->copy($this->rootDir . '/vendor/bundles/AlphaLemon/AlphaLemonCmsBundle/Resources/environments/config/routing_alcms_dev.yml', $this->rootDir . '/app/config/routing_alcms_dev.yml', true);
+        $fs->mkdir($this->rootDir . '/vendor/bundles/AlphaLemon/AlphaLemonCmsBundle/Resources/public/uploads/assets/media');
+        $fs->mkdir($this->rootDir . '/vendor/bundles/AlphaLemon/AlphaLemonCmsBundle/Resources/public/uploads/assets/js');
+        $fs->mkdir($this->rootDir . '/vendor/bundles/AlphaLemon/AlphaLemonCmsBundle/Resources/public/uploads/assets/css');
     }
     
     private function writeConfigurations()
@@ -225,15 +232,17 @@ class Installer {
         }
     }
 
-    private function connectDb()
+    private function connectDb($dsn = null)
     {
         try
         {
-            return new \PropelPDO($this->dsn, $this->user, $this->password);
+            $dsn = (null === $dsn) ? $this->dsn : $dsn;
+            
+            return new \PropelPDO($dsn, $this->user, $this->password);
         }
         catch(Exception $ex)
         {
-            echo "\nERROR: An error occoured when connectig to the database with the given parameters. Check the configuration parameters into the bin/config.php file\n\n";
+            echo "\nERROR: An error occoured when trying to connect the database with the given parameters. The server returned the following error:\n\n" . $ex->getMessage() . "\n\nCheck your configuration parameters into the bin/config.php file and be sure that the database name given is the same exposed by the dsn\n\n";
             die;
         }
     }
@@ -242,7 +251,7 @@ class Installer {
     {
         try
         {
-            $connection = $this->connectDb();
+            $connection = $this->connectDb($this->shortDsn);
 
             $query = 'CREATE DATABASE ' . $this->database;
             $statement = $connection->prepare($query);
