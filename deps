@@ -77,12 +77,12 @@
 [ThemeEngineBundle]
     git=http://github.com/alphalemon/ThemeEngineBundle.git
     target=/bundles/AlphaLemon/ThemeEngineBundle
-    version=1.0.0
+    version=1.1.0
 
 [PageTreeBundle]
     git=http://github.com/alphalemon/PageTreeBundle.git
     target=/bundles/AlphaLemon/PageTreeBundle
-    version=1.0.0
+    version=1.1.0
 
 [AlValumUploaderBundle]
     git=http://github.com/alphalemon/AlValumUploaderBundle.git
@@ -92,7 +92,7 @@
 [AlphaLemonThemeBundle]
     git=http://github.com/alphalemon/AlphaLemonThemeBundle.git
     target=/bundles/AlphaLemon/ThemeEngineBundle/Themes/AlphaLemonThemeBundle
-    version=1.0.0
+    version=1.1.0
 
 [ElFinderBundle]
     git=http://github.com/alphalemon/ElFinderBundle.git
@@ -102,7 +102,7 @@
 [AlphaLemonCmsBundle]
     git=http://github.com/alphalemon/AlphaLemonCmsBundle.git
     target=/bundles/AlphaLemon/AlphaLemonCmsBundle
-    version=1.0.0-RC2
+    version=1.0.0-RC4
 
 [FrontendBundle]
     git=http://github.com/alphalemon/FrontendBundle.git
