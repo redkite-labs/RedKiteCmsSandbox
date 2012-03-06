@@ -102,9 +102,9 @@
 [AlphaLemonCmsBundle]
     git=http://github.com/alphalemon/AlphaLemonCmsBundle.git
     target=/bundles/AlphaLemon/AlphaLemonCmsBundle
-    version=1.0.0-RC5
+    version=1.0.0-PR5
 
 [FrontendBundle]
     git=http://github.com/alphalemon/FrontendBundle.git
     target=/bundles/AlphaLemon/FrontendBundle
-    version=1.0.0-RC5
+    version=1.0.0-PR5
