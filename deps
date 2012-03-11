@@ -77,7 +77,7 @@
 [ThemeEngineBundle]
     git=http://github.com/alphalemon/ThemeEngineBundle.git
     target=/bundles/AlphaLemon/ThemeEngineBundle
-    version=1.1.0
+    version=1.2.0
 
 [PageTreeBundle]
     git=http://github.com/alphalemon/PageTreeBundle.git
@@ -102,7 +102,7 @@
 [AlphaLemonCmsBundle]
     git=http://github.com/alphalemon/AlphaLemonCmsBundle.git
     target=/bundles/AlphaLemon/AlphaLemonCmsBundle
-    version=1.0.0-PR5
+    version=1.0.0-PR6
 
 [FrontendBundle]
     git=http://github.com/alphalemon/FrontendBundle.git
