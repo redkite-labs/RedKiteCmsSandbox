@@ -41,7 +41,7 @@ to install the CMS, which are:
 When you start a new Symfony2 project you always create a new bundle where your application lives. 
 The required external bundle, by AlphaLemon CMS, is exactly that bundle.
 
-Open the bin/config.php file and change the parameters to work with your environment then give the following 
+Open the **vendor/bin/config.php** file and change the parameters to work with your environment then give the following 
 command to setup AlphaLemon CMS: 
 
     php vendor/bin/cms-install
