@@ -16,16 +16,17 @@ Once you've downloaded and uncompressed the AlphaLemon CMS Sandbox, just open a 
 move to the root folder of the sandbox and give the following command to install vendor 
 libraries:
 
-    php ./bin/vendors install
+    curl -s http://getcomposer.org/installer | php
+    php composer.phar update
 
-Now you must grab ElFinder vendor library, which is a submodule of ElFinderBundle. Give
-this commands:
 
-    cd vendor/bundles/AlphaLemon/ElFinderBundle/
-    git submodule init
-    git submodule update
+The bootstrap.php.cache file
+----------------------------
+AlphaLemonCMS sandbox comes with a precompiled bootstrap.php.cache. If you want to recompile it simply run the
+following command:
 
-Wait that until the library is downloaded then return to the top directory. 
+    php bin/build_bootstrap
+
 
 AlphaLemon CMS setup
 --------------------
@@ -43,14 +44,18 @@ The required external bundle, by AlphaLemon CMS, is exactly that bundle.
 Open the bin/config.php file and change the parameters to work with your environment then give the following 
 command to setup AlphaLemon CMS: 
 
-    php ./bin/cmsInstall
+    php vendor/bin/cms-install
+
+Permissions
+Don't forget to setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
+tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
 
 Use AlphaLemon CMS
 ------------------
 
-To browse your site, simply open a browser and point to http://localhost or whatever your domain is.
+To browse your site, simply open a browser and point to **http://localhost** or whatever your domain is.
 
-To work with AlphaLemon CMS simply point to http://localhost/alcms.php/en/index. You may debug your
-application using the alcms_dev.php environment: http://localhost/alcms_dev.php/en/index
+To work with AlphaLemon CMS simply point to **http://localhost/alcms.php/en/index**. You may debug your
+application using the alcms_dev.php environment: **http://localhost/alcms_dev.php/en/index**
 
 Enjoy!
