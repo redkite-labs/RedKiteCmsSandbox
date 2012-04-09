@@ -47,8 +47,10 @@ command to setup AlphaLemon CMS:
     php vendor/bin/cms-install
 
 Permissions
+-----------
 Don't forget to setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
 tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
+
 
 Use AlphaLemon CMS
 ------------------
