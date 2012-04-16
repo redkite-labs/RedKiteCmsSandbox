@@ -10,6 +10,7 @@
         "sensio/framework-extra-bundle": "2.0.*",
         "sensio/distribution-bundle": "2.0.*",
         "jms/security-extra-bundle": "1.0.*",        
+        "alphalemon/alphalemon-bootstrap-bundle": "dev-master",        
         "alphalemon/alphalemon-cms-bundle": "dev-develop"
     },
 
