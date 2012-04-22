@@ -1,3 +1,2 @@
-_AlphaLemonBootstrapBundle:
-    resource: .
-    type: bootstrap
+_installer:
+    resource: "@AlphaLemonCmsInstallerBundle/Resources/config/routing.yml"
