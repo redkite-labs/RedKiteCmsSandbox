@@ -1,4 +1,11 @@
 {
+
+    "repositories": [ 
+          { 
+              "type": "composer", 
+              "url": "http://apps.alphalemon.com/" 
+          } 
+      ],
     "require": {
         "php": ">=5.3.2",
         "symfony/symfony": ">=2.0.10",
@@ -18,19 +25,5 @@
         "psr-0": {
             "": "src/"
         }
-    },
-
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
-    },
-
-    "scripts": {
-        "post-install-cmd": [
-            "AlphaLemon\\ElFinderBundle\\Composer\\ScriptHandler::installElFinderLibrary"
-        ],
-        "post-update-cmd": [
-            "AlphaLemon\\ElFinderBundle\\Composer\\ScriptHandler::installElFinderLibrary"
-        ]
     }
 }
