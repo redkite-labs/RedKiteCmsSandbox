@@ -1,55 +1,70 @@
 {
-    "hash": "9153fd315296a096c7493bceebc14391",
+    "hash": "b49941ffc47a15f7f7bf1ad926eb387e",
     "packages": [
         {
             "package": "alphalemon/al-pagetree-bundle",
             "version": "dev-master",
-            "source-reference": "14fbe6dff410c2dd748f9abf396129b28b489db7"
+            "source-reference": "c7b3250e14222b20e8a9511fcf939c3435999ea2"
         },
         {
             "package": "alphalemon/al-valum-uploader-bundle",
             "version": "dev-master",
-            "source-reference": "804b0b784b2be404a7c5b488cae98886f0b16c7f"
+            "source-reference": "50262577d4fbd5e2cc5f3b955d7e530aec9990a8"
+        },
+        {
+            "package": "alphalemon/alphalemon-bootstrap-bundle",
+            "version": "dev-master",
+            "source-reference": "0e818e68e13572cffac55da6d6198ed4a172cd81"
         },
         {
             "package": "alphalemon/alphalemon-cms-bundle",
-            "version": "dev-feat-decouple-themes-and-blocks",
-            "source-reference": "1ab7bf12b3a9e908f1ab23ecea874fbf81e0d8fb"
+            "version": "dev-develop",
+            "source-reference": "0396cae202116b859c08acc4fa53fe0131a52bf8"
+        },
+        {
+            "package": "alphalemon/alphalemon-cms-installer-bundle",
+            "version": "dev-master",
+            "source-reference": "551a3e5eab6db7d8d1c20ececae49b4e6f7f4d97"
+        },
+        {
+            "package": "alphalemon/app-business-carousel-bundle",
+            "version": "dev-master",
+            "source-reference": "021a9c6e6ccfc18eddd4bd4383b1c5e0ab0d970c"
         },
         {
             "package": "alphalemon/app-business-dropcap-bundle",
             "version": "dev-master",
-            "source-reference": "cca506a49b5c48b9b052825e7a8e5febabeab46e"
+            "source-reference": "3c12a23785a23dc451958c9f0e09ffbfb184fcec"
         },
         {
             "package": "alphalemon/app-business-menu-bundle",
             "version": "dev-master",
-            "source-reference": "fb5bc1c9b8f8ac7ad0a247e0f31c07aa2f416916"
+            "source-reference": "7a40fc66ab0642243cc2c7f88633315b720a7dcb"
         },
         {
             "package": "alphalemon/app-business-slider-bundle",
             "version": "dev-master",
-            "source-reference": "f56a683bbaf0c874f3b1d7eb39ed972635a586e7"
+            "source-reference": "f6d701b4b8f374da34b270bbfe0fb971f8bdfcb3"
         },
         {
             "package": "alphalemon/business-website-theme-bundle",
             "version": "dev-master",
-            "source-reference": "3717a23b909e447108ce6052c29e26723a2eea0d"
+            "source-reference": "f3916542bb05bb16dc8cfdc33a8e7f433c4e9fe1"
         },
         {
             "package": "alphalemon/elfinder-bundle",
             "version": "dev-master",
-            "source-reference": "87f9e62a4da28b6a443f350345f9ad2019a21b14"
+            "source-reference": "41fd4b8f52a5ec2a3e3a754f3ba7f1321fb60e02"
         },
         {
-            "package": "alphalemon/frontendbundle",
+            "package": "alphalemon/frontend-bundle",
             "version": "dev-master",
-            "source-reference": "f535c9c6cbefb474d0e232b44a40808cea936847"
+            "source-reference": "7f5641f81c985ccad40cc80e114db6b2eebc7450"
         },
         {
             "package": "alphalemon/theme-engine-bundle",
             "version": "dev-master",
-            "source-reference": "27dac7837b9a144f049b75986921eecd44a83dac"
+            "source-reference": "ac4e1cd93b2566b6f59ef8a83ebf84c21deb2b65"
         },
         {
             "package": "doctrine/common",
@@ -58,13 +73,18 @@
         },
         {
             "package": "doctrine/dbal",
-            "version": "2.1.x-dev",
-            "source-reference": "9d3625eeb1f7c840d3897d8961e977b554276a1d"
+            "version": "dev-master",
+            "source-reference": "493ced5cd0c2906f403dc48c46e2f7e257144bd0"
         },
         {
             "package": "doctrine/orm",
-            "version": "2.1.x-dev",
-            "source-reference": "57acceaff2d2ca5c047a9fed1d5bbc950df81d16"
+            "version": "dev-master",
+            "source-reference": "d5d47222c1dc5ea97ebd8f4c68834fbe4abeb238"
+        },
+        {
+            "package": "imagine/Imagine",
+            "version": "dev-master",
+            "source-reference": "v0.2.8"
         },
         {
             "package": "jms/metadata",
@@ -73,12 +93,12 @@
         {
             "package": "jms/security-extra-bundle",
             "version": "1.0.x-dev",
-            "source-reference": "541a4c242328dc04b99540c75346cc74a7c0cfb5"
+            "source-reference": "e752f888c51425f71382c056961f10f2be642102"
         },
         {
             "package": "kriswallsmith/assetic",
             "version": "1.0.x-dev",
-            "source-reference": "dc073c2a96ac0212814da501b00e74d74717935a"
+            "source-reference": "272e14b76f9d638b6cf7d94afa64b3ad9261bb6c"
         },
         {
             "package": "monolog/monolog",
@@ -90,28 +110,28 @@
         },
         {
             "package": "propel/propel-bundle",
-            "version": "2.0-dev",
-            "source-reference": "e0d2b9f43a4ac767a3a26692f493c07b6f5f6000"
+            "version": "2.0.x-dev",
+            "source-reference": "b8743322937659d0a628f15896d9aa60acf30cf0"
         },
         {
             "package": "propel/propel1",
             "version": "dev-master",
-            "source-reference": "d6506a592f3b2a3f2411e07c1e184a4dde26e490",
+            "source-reference": "c3e9bbdde9ab676d4b86e89d4c8814a20ad4d50d",
             "alias": "1.6.9999999.9999999-dev"
         },
         {
             "package": "sensio/distribution-bundle",
-            "version": "2.0-dev",
+            "version": "2.0.x-dev",
             "source-reference": "20b66a408084ad8752f98e50f10533f5245310bf"
         },
         {
             "package": "sensio/framework-extra-bundle",
-            "version": "2.0-dev",
+            "version": "2.0.x-dev",
             "source-reference": "638f545b7020b9e9d5944a7e3167f60ed848250d"
         },
         {
             "package": "sensio/generator-bundle",
-            "version": "2.0-dev",
+            "version": "2.0.x-dev",
             "source-reference": "b1ccb78c1743f30817b0fce9bb5c6baff6ed7bf8"
         },
         {
@@ -120,24 +140,26 @@
         },
         {
             "package": "symfony/assetic-bundle",
-            "version": "2.0-dev",
+            "version": "2.0.x-dev",
             "source-reference": "3515e6f0ab1e628bd9208a0d4316d011511a99cb"
         },
         {
             "package": "symfony/symfony",
-            "version": "v2.0.12"
+            "version": "2.0.x-dev",
+            "source-reference": "44ba841a673b10eeecdc5de5b8380486d7068382"
         },
         {
             "package": "twig/extensions",
             "version": "dev-master",
-            "source-reference": "4c831657215e51568fcb31bb9142e827f9a69bd5"
+            "source-reference": "446d870272cd87a720e95242eade38a2acf56eaa"
         },
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "46ae99fa4c11f76248b12da647fe64399f860e82",
-            "alias": "1.7.9999999.9999999-dev"
+            "source-reference": "40c966885489d1eefb66bdc3d394b006399fca0f",
+            "alias": "1.8.9999999.9999999-dev"
         }
     ],
+    "packages-dev": null,
     "aliases": []
 }
