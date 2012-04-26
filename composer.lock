@@ -4,7 +4,7 @@
         {
             "package": "alphalemon/al-pagetree-bundle",
             "version": "dev-master",
-            "source-reference": "c7b3250e14222b20e8a9511fcf939c3435999ea2"
+            "source-reference": "1adc4e551510df6e443756195801ecbc79f4a336"
         },
         {
             "package": "alphalemon/al-valum-uploader-bundle",
@@ -19,7 +19,7 @@
         {
             "package": "alphalemon/alphalemon-cms-bundle",
             "version": "dev-develop",
-            "source-reference": "0396cae202116b859c08acc4fa53fe0131a52bf8"
+            "source-reference": "19a578db38902fc6dde6a888ea7540756708b168"
         },
         {
             "package": "alphalemon/alphalemon-cms-installer-bundle",
@@ -29,22 +29,22 @@
         {
             "package": "alphalemon/app-business-carousel-bundle",
             "version": "dev-master",
-            "source-reference": "021a9c6e6ccfc18eddd4bd4383b1c5e0ab0d970c"
+            "source-reference": "2280234ba11fe8dd58f3900e15610ed16ce60b22"
         },
         {
             "package": "alphalemon/app-business-dropcap-bundle",
             "version": "dev-master",
-            "source-reference": "3c12a23785a23dc451958c9f0e09ffbfb184fcec"
+            "source-reference": "c65b584de7990ca309b60f808091785927515bc0"
         },
         {
             "package": "alphalemon/app-business-menu-bundle",
             "version": "dev-master",
-            "source-reference": "7a40fc66ab0642243cc2c7f88633315b720a7dcb"
+            "source-reference": "8b3363063fd352f35b75e4802e4fe7bea7814c43"
         },
         {
             "package": "alphalemon/app-business-slider-bundle",
             "version": "dev-master",
-            "source-reference": "f6d701b4b8f374da34b270bbfe0fb971f8bdfcb3"
+            "source-reference": "a24320cea519c73e47870cc77688d439779d4c7b"
         },
         {
             "package": "alphalemon/business-website-theme-bundle",
@@ -54,17 +54,17 @@
         {
             "package": "alphalemon/elfinder-bundle",
             "version": "dev-master",
-            "source-reference": "41fd4b8f52a5ec2a3e3a754f3ba7f1321fb60e02"
+            "source-reference": "3eef1d536cc8ed35c158b3a94d71376686bac634"
         },
         {
             "package": "alphalemon/frontend-bundle",
             "version": "dev-master",
-            "source-reference": "7f5641f81c985ccad40cc80e114db6b2eebc7450"
+            "source-reference": "a6f4c316b4d8c3939649ef783be66bc6d911c42b"
         },
         {
             "package": "alphalemon/theme-engine-bundle",
             "version": "dev-master",
-            "source-reference": "ac4e1cd93b2566b6f59ef8a83ebf84c21deb2b65"
+            "source-reference": "a1b1cfebd97d233fb0ee70de9cfe44f71f1c2842"
         },
         {
             "package": "doctrine/common",
@@ -102,7 +102,7 @@
         },
         {
             "package": "monolog/monolog",
-            "version": "1.0.2"
+            "version": "1.1.0"
         },
         {
             "package": "phing/phing",
@@ -111,12 +111,12 @@
         {
             "package": "propel/propel-bundle",
             "version": "2.0.x-dev",
-            "source-reference": "b8743322937659d0a628f15896d9aa60acf30cf0"
+            "source-reference": "deca1181ff43cadc921565bb2370b7ce7addc560"
         },
         {
             "package": "propel/propel1",
             "version": "dev-master",
-            "source-reference": "c3e9bbdde9ab676d4b86e89d4c8814a20ad4d50d",
+            "source-reference": "1fd5b18df0223b2ec1ee801d88ad0e9a2ac19871",
             "alias": "1.6.9999999.9999999-dev"
         },
         {
@@ -146,7 +146,7 @@
         {
             "package": "symfony/symfony",
             "version": "2.0.x-dev",
-            "source-reference": "44ba841a673b10eeecdc5de5b8380486d7068382"
+            "source-reference": "bd112816016fd9dae2f9619d8461eebdae15ff52"
         },
         {
             "package": "twig/extensions",
@@ -156,7 +156,7 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "40c966885489d1eefb66bdc3d394b006399fca0f",
+            "source-reference": "75d97b4a275b90956df554fd7d8d7bc6e3d4ae73",
             "alias": "1.8.9999999.9999999-dev"
         }
     ],
