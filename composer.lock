@@ -14,12 +14,12 @@
         {
             "package": "alphalemon/alphalemon-bootstrap-bundle",
             "version": "dev-master",
-            "source-reference": "0e818e68e13572cffac55da6d6198ed4a172cd81"
+            "source-reference": "12fb3c80d3e873c4de81d68eff01f39cced7eeaf"
         },
         {
             "package": "alphalemon/alphalemon-cms-bundle",
             "version": "dev-develop",
-            "source-reference": "19a578db38902fc6dde6a888ea7540756708b168"
+            "source-reference": "90a80896ff6eb2b24f977b73b82d9a6e8d087b76"
         },
         {
             "package": "alphalemon/alphalemon-cms-installer-bundle",
@@ -29,27 +29,27 @@
         {
             "package": "alphalemon/app-business-carousel-bundle",
             "version": "dev-master",
-            "source-reference": "2280234ba11fe8dd58f3900e15610ed16ce60b22"
+            "source-reference": "58d79200841abb6b1a47866a9f26a50b0c60eced"
         },
         {
             "package": "alphalemon/app-business-dropcap-bundle",
             "version": "dev-master",
-            "source-reference": "c65b584de7990ca309b60f808091785927515bc0"
+            "source-reference": "fcfb7eca71f33a3d4b914edaec92c8c5098f2df7"
         },
         {
             "package": "alphalemon/app-business-menu-bundle",
             "version": "dev-master",
-            "source-reference": "8b3363063fd352f35b75e4802e4fe7bea7814c43"
+            "source-reference": "81e9690335b00363a3881ad0c37591604421bb8b"
         },
         {
             "package": "alphalemon/app-business-slider-bundle",
             "version": "dev-master",
-            "source-reference": "a24320cea519c73e47870cc77688d439779d4c7b"
+            "source-reference": "8e48f1116ebc90ff743f6705bcd7af018ee1446f"
         },
         {
             "package": "alphalemon/business-website-theme-bundle",
             "version": "dev-master",
-            "source-reference": "f3916542bb05bb16dc8cfdc33a8e7f433c4e9fe1"
+            "source-reference": "e3f730285d49cdcf32dd36c6bb3be487c55ac2c7"
         },
         {
             "package": "alphalemon/elfinder-bundle",
@@ -64,7 +64,7 @@
         {
             "package": "alphalemon/theme-engine-bundle",
             "version": "dev-master",
-            "source-reference": "a1b1cfebd97d233fb0ee70de9cfe44f71f1c2842"
+            "source-reference": "f81f359fb910330a6b7aeecb572c97e71950ea73"
         },
         {
             "package": "doctrine/common",
@@ -79,7 +79,7 @@
         {
             "package": "doctrine/orm",
             "version": "dev-master",
-            "source-reference": "d5d47222c1dc5ea97ebd8f4c68834fbe4abeb238"
+            "source-reference": "0a09a28ec9301b371da54babb076df84a0d2033f"
         },
         {
             "package": "imagine/Imagine",
@@ -110,8 +110,7 @@
         },
         {
             "package": "propel/propel-bundle",
-            "version": "2.0.x-dev",
-            "source-reference": "deca1181ff43cadc921565bb2370b7ce7addc560"
+            "version": "1.0.0"
         },
         {
             "package": "propel/propel1",
@@ -127,16 +126,18 @@
         {
             "package": "sensio/framework-extra-bundle",
             "version": "2.0.x-dev",
-            "source-reference": "638f545b7020b9e9d5944a7e3167f60ed848250d"
+            "source-reference": "1eda94d838aa885e154f92f426df35f2252cdb92"
         },
         {
             "package": "sensio/generator-bundle",
             "version": "2.0.x-dev",
-            "source-reference": "b1ccb78c1743f30817b0fce9bb5c6baff6ed7bf8"
+            "source-reference": "83b768a487a6878f2bc2ad6859bd61a3651a7885"
         },
         {
             "package": "swiftmailer/swiftmailer",
-            "version": "4.1.6"
+            "version": "dev-master",
+            "source-reference": "57789082d1d53529dcf8cd3ca132d9787a59afee",
+            "alias": "4.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/assetic-bundle",
@@ -146,7 +147,7 @@
         {
             "package": "symfony/symfony",
             "version": "2.0.x-dev",
-            "source-reference": "bd112816016fd9dae2f9619d8461eebdae15ff52"
+            "source-reference": "59dd4df7f4150141ec5bb52548570cae1b367844"
         },
         {
             "package": "twig/extensions",
@@ -156,10 +157,12 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "75d97b4a275b90956df554fd7d8d7bc6e3d4ae73",
+            "source-reference": "f3491b5cbfd03a31538b6e8c82d65cd54996e870",
             "alias": "1.8.9999999.9999999-dev"
         }
     ],
     "packages-dev": null,
-    "aliases": []
+    "aliases": [
+
+    ]
 }
