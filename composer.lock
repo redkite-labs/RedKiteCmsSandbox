@@ -14,7 +14,7 @@
         {
             "package": "alphalemon/alphalemon-bootstrap-bundle",
             "version": "dev-master",
-            "source-reference": "12fb3c80d3e873c4de81d68eff01f39cced7eeaf"
+            "source-reference": "268b6e9ec75de6eaa35a85e8b197867681c30fb1"
         },
         {
             "package": "alphalemon/alphalemon-cms-bundle",
