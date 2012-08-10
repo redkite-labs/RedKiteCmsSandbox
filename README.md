@@ -1,56 +1,92 @@
-AlphaLemon CMS Sandbox
-========================
+PRE-ALPHA Release
+==================================
 
-Welcome to the AlphaLemon CMS Sandbox - a fully-functional Symfony2  
-application, powered by AlphaLemon CMS, that you can use as the skeleton 
-for your new app. 
+> This is a Pre-Alpha release. Its pourpose is to let developers to install
+it for contributing. It's buggy so don't use it in production.
+
+AlphaLemon CMS Sandbox
+======================
+
+Welcome to the AlphaLemon CMS Sandbox - a fully-functional Symfony2
+application, powered by AlphaLemon CMS, that you can use as the skeleton
+for your new app.
 
 This document contains information on how to download and start using AlphaLemon CMS.
 For a more detailed explanation, see the
-[Installation chapter](http://http://alphalemon.com/how-to-install-alphalemon-cms).
+[Installation chapter](http://alphalemon.com/how-to-install-alphalemon-cms).
+
+Download
+--------
+
+From your console run the following command:
+
+    git clone https://github.com/alphalemon/AlphaLemonCmsSandbox.git
+
 
 Vendor libraries installation
 -----------------------------
 
-Once you've downloaded and uncompressed the AlphaLemon CMS Sandbox, just open a console, 
-move to the root folder of the sandbox and give the following command to install vendor 
+Once you've downloaded and uncompressed the AlphaLemon CMS Sandbox, just open a console,
+move to the root folder of the sandbox and give the following command to install vendor
 libraries:
 
-    php ./bin/vendors install
+    curl -s http://getcomposer.org/installer | php
+    php composer.phar install
 
-Now you must grab ElFinder vendor library, which is a submodule of ElFinderBundle. Give
-this commands:
 
-    cd vendor/bundles/AlphaLemon/ElFinderBundle/
-    git submodule init
-    git submodule update
+The bootstrap.php.cache file
+----------------------------
+AlphaLemonCMS sandbox comes with a precompiled bootstrap.php.cache. If you want to recompile it simply run the
+following command:
 
-Wait that until the library is downloaded then return to the top directory. 
+    php bin/build_bootstrap
+
 
 AlphaLemon CMS setup
 --------------------
 
-Before starting the setup operation, you must configure the parameters required by the application.
-The installation script comes with a config.php where are saved the default configurations required 
-to install the CMS, which are:
+AlphaLemonCMS requires several steps to be accomplished to properly setup the CMS itself. Luckily
+the AlphaLemonCmsInstallerBundle will do all the job for you, providing a web installer interface
+or an interactive symdony2 command to install AlphaLemonCMS.
 
-- A bundle where AlphaLemon CMS will save your contents
-- The database parameters, like the host, the database name, the user and password
+Installing from the console
+---------------------------
+Installing AlphaLemonCMS from the console is really easy:
 
-When you start a new Symfony2 project you always create a new bundle where your application lives. 
-The required external bundle, by AlphaLemon CMS, is exactly that bundle.
+    app/console alphalemon:install-cms
 
-Open the bin/config.php file and change the parameters to work with your environment then give the following 
-command to setup AlphaLemon CMS: 
+This will run the interactive command. Provide the required information and you are done! Point
+your browser at
 
-    php ./bin/cmsInstall
+    http://localhost/alcms.php/backend/en/index
 
-Use AlphaLemon CMS
-------------------
+to start using AlphaLemonCMS.
 
-To browse your site, simply open a browser and point to http://localhost or whatever your domain is.
+Installing using the web interface
+----------------------------------
+Installing AlphaLemonCMS using the web interface requires an addictional step, since Symfony 2.1
+will be released:
 
-To work with AlphaLemon CMS simply point to http://localhost/alcms.php/en/index. You may debug your
-application using the alcms_dev.php environment: http://localhost/alcms_dev.php/en/index
+    app/console assets:install web
+
+After the assets have been installed, point your browser at:
+
+    http://localhost/app_dev.php/install
+
+Provide the required information and you are done! After the process ended, you will be immediatly
+redirected to the
+
+    http://localhost/alcms.php/backend/en/index
+
+Permissions
+-----------
+Don't forget to setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
+tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
+
+Run test suite
+--------------
+From the root of AlphaLemon CMS Sandbox run the following command:
+
+    phpunit -c app
 
 Enjoy!
