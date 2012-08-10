@@ -1,5 +1,11 @@
+PRE-ALPHA Release
+==================================
+
+> This is a Pre-Alpha release. Its pourpose is to let developers to install
+it for contributing. It's buggy so don't use it in production.
+
 AlphaLemon CMS Sandbox
-========================
+======================
 
 Welcome to the AlphaLemon CMS Sandbox - a fully-functional Symfony2  
 application, powered by AlphaLemon CMS, that you can use as the skeleton 
