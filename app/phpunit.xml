@@ -15,7 +15,7 @@
 
     <testsuites>
         <testsuite name="AlphaLemonCmsBundle Test Suite">
-            <directory>../vendor/alphalemon/alphalemon-bootstrap-bundle/AlphaLemon/BootstrapBundle/Tests</directory>
+            <!--<directory>../vendor/alphalemon/alphalemon-bootstrap-bundle/AlphaLemon/BootstrapBundle/Tests</directory>-->>
             <directory>../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle/Tests</directory>
             <directory>../vendor/alphalemon/al-pagetree-bundle/AlphaLemon/PageTreeBundle/Tests</directory>
             <directory>../vendor/alphalemon/theme-engine-bundle/AlphaLemon/ThemeEngineBundle/Tests</directory>
