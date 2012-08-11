@@ -79,4 +79,8 @@ From the root of AlphaLemon CMS Sandbox run the following command:
 
     phpunit -c app
 
+Stay in touch
+-------------
+Follow [@alphalemon on twitter](https://twitter.com/alphalemon) for the latest news
+
 Enjoy!
