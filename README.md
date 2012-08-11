@@ -12,8 +12,6 @@ application, powered by AlphaLemon CMS, that you can use as the skeleton
 for your new app.
 
 This document contains information on how to download and start using AlphaLemon CMS.
-For a more detailed explanation, see the
-[Installation chapter](http://alphalemon.com/how-to-install-alphalemon-cms).
 
 Download
 --------
@@ -27,26 +25,18 @@ Vendor libraries installation
 -----------------------------
 
 Once you've downloaded and uncompressed the AlphaLemon CMS Sandbox, just open a console,
-move to the root folder of the sandbox and give the following command to install vendor
-libraries:
+move to the root folder and give the following command to download composer and install
+the required vendor libraries:
 
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
-
-
-The bootstrap.php.cache file
-----------------------------
-AlphaLemonCMS sandbox comes with a precompiled bootstrap.php.cache. If you want to recompile it simply run the
-following command:
-
-    php bin/build_bootstrap
 
 
 AlphaLemon CMS setup
 --------------------
 
 AlphaLemonCMS requires several steps to be accomplished to properly setup the CMS itself. Luckily
-the AlphaLemonCmsInstallerBundle will do all the job for you, providing a web installer interface
+the **AlphaLemonCmsInstallerBundle** will do all the job for you, providing a web installer interface
 or an interactive symdony2 command to install AlphaLemonCMS.
 
 Installing from the console
