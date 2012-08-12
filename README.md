@@ -13,6 +13,9 @@ for your new app.
 
 This document contains information on how to download and start using AlphaLemon CMS.
 
+[![Build Status](https://secure.travis-ci.org/alphalemon/AlphaLemonCmsSandbox.png)](http://travis-ci.org/alphalemon/AlphaLemonCmsSandbox)
+
+
 Download
 --------
 
