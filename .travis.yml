@@ -19,6 +19,7 @@ before_script:
   - "mysql -e 'create database alphalemon_test;'"
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install
+  - php app/console alphalemon:install-cms
 
 script: phpunit -c app
 
