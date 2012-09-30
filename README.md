@@ -1,9 +1,3 @@
-PRE-ALPHA Release
-==================================
-
-> This is a Pre-Alpha release. Its pourpose is to let developers to install
-it for contributing. It's buggy so don't use it in production.
-
 AlphaLemon CMS Sandbox
 ======================
 
@@ -24,8 +18,16 @@ From your console run the following command:
     git clone https://github.com/alphalemon/AlphaLemonCmsSandbox.git
 
 
+Permissions
+-----------
+Setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
+tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
+
+
 Vendor libraries installation
 -----------------------------
+
+> This step is required only if you are using the "without vendors" sandbox
 
 Once you've downloaded and uncompressed the AlphaLemon CMS Sandbox, just open a console,
 move to the root folder and give the following command to download composer and install
@@ -70,11 +72,6 @@ Provide the required information and you are done! After the process ended, you 
 redirected to the
 
     http://localhost/alcms.php/backend/en/index
-
-Permissions
------------
-Don't forget to setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
-tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
 
 Run test suite
 --------------
