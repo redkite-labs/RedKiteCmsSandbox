@@ -73,6 +73,16 @@ redirected to the
 
     http://localhost/alcms.php/backend/en/index
 
+Signin
+------
+AlphaLemonCms is secured by default and a new user is created when the application is installed:
+
+    username: admin
+    password: admin
+
+enter the credentials above to signin.
+
+
 Run test suite
 --------------
 From the root of AlphaLemon CMS Sandbox run the following command:
