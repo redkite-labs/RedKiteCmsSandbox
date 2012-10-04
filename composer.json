@@ -24,8 +24,8 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "alphalemon/alphalemon-cms-bundle": "dev-v1.0.0-alpha",
-        "alphalemon/alphalemon-cms-installer-bundle": "dev-v1.0.0-alpha"
+        "alphalemon/alphalemon-cms-bundle": "dev-master",
+        "alphalemon/alphalemon-cms-installer-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
