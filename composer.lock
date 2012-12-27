@@ -1,5 +1,5 @@
 {
-    "hash": "7049a31f44a08d8a05563291db8b595b",
+    "hash": "ff9fba1169ea36daa40a4d8fdb72ed01",
     "packages": [
         {
             "name": "alphalemon/alphalemon-bootstrap-bundle",
@@ -1979,7 +1979,51 @@
             ]
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "willdurand/propel-typehintable-behavior",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/TypehintableBehavior",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/willdurand/TypehintableBehavior/archive/1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": ""
+            },
+            "require": {
+                "propel/propel1": "1.6.*"
+            },
+            "time": "2012-07-15 14:03:24",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William DURAND",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "Insane Propel behavior that helps you to be compliant with third-party interfaces by adding type hint to generated methods.",
+            "keywords": [
+                "propel",
+                "Behavior",
+                "typehint"
+            ]
+        }
+    ],
     "aliases": [
         {
             "alias": "2.3.0",
@@ -1990,6 +2034,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "doctrine/common": 20
+        "doctrine/common": 20,
+        "willdurand/propel-typehintable-behavior": 20,
+        "mikey179/vfsstream": 20
     }
 }

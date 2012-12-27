@@ -32,6 +32,10 @@
         "alphalemon/alphalemon-cms-installer-bundle": "1.0.*",        
         "doctrine/common": "dev-bugfix as 2.3.0"
     },
+    "require-dev": {    
+      "willdurand/propel-typehintable-behavior": "dev-master",  
+      "mikey179/vfsStream": "dev-master"
+    },
     "scripts": {
         "post-install-cmd": [
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
