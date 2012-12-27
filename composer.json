@@ -29,7 +29,8 @@
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
         "alphalemon/alphalemon-cms-bundle": "1.0.*",
-        "alphalemon/alphalemon-cms-installer-bundle": "1.0.*"
+        "alphalemon/alphalemon-cms-installer-bundle": "1.0.*",        
+        "doctrine/common": "dev-bugfix as 2.3.0"
     },
     "require-dev": {    
       "willdurand/propel-typehintable-behavior": "dev-master",  
