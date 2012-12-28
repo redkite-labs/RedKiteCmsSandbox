@@ -104,7 +104,7 @@
             },
             "time": "2012-12-26 18:08:13",
             "type": "symfony-bundle",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "AlphaLemon\\AlphaLemonCmsBundle": "",
@@ -180,12 +180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessCarouselBundle",
-                "reference": "f1e6cadfabde4f29f7cf9db7ca9454d2df8a430b"
+                "reference": "ee1642ffdcc54544fc78ba7d43b6b3f7da612092"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-12-08 17:40:00",
+            "time": "2012-12-27 12:19:05",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -217,12 +217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessDropCapBundle",
-                "reference": "87197f6e032583e826dfc1f92808fae76c5b04ef"
+                "reference": "6f9707ca1171cfb48f0e2e0deb03ef4a4054aa84"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-12-08 17:41:06",
+            "time": "2012-12-27 12:19:45",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -254,12 +254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessMenuBundle",
-                "reference": "cb58f47ad33b63225be968c53d538b18a0aaedc4"
+                "reference": "86fd230fbe36c8d15c3270f4b0ea0e91cb39c4d9"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-12-08 17:41:41",
+            "time": "2012-12-27 12:20:16",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessSliderBundle",
-                "reference": "3806bde7889e3dac99684628b60b97f377012bb0"
+                "reference": "d70106bf1eeabee72626bb25fc0521abdb36148f"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-12-08 17:42:07",
+            "time": "2012-12-27 12:20:49",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -807,18 +807,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/jdorn/sql-formatter.git",
-                "reference": "bccfd5ad5c490bb5ff3c8930015f352188b193f6"
+                "reference": "9aac5ea51a1c13af3e67a7d7ba7e528f94c52485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/jdorn/sql-formatter/archive/bccfd5ad5c490bb5ff3c8930015f352188b193f6.zip",
-                "reference": "bccfd5ad5c490bb5ff3c8930015f352188b193f6",
+                "url": "https://github.com/jdorn/sql-formatter/archive/9aac5ea51a1c13af3e67a7d7ba7e528f94c52485.zip",
+                "reference": "9aac5ea51a1c13af3e67a7d7ba7e528f94c52485",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-12-26 06:46:31",
+            "time": "2012-12-27 16:16:30",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1523,12 +1523,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensio/SensioGeneratorBundle",
-                "reference": "v2.1.4"
+                "reference": "v2.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sensio/SensioGeneratorBundle/archive/v2.1.4.zip",
-                "reference": "v2.1.4",
+                "url": "https://github.com/sensio/SensioGeneratorBundle/archive/v2.1.5.zip",
+                "reference": "v2.1.5",
                 "shasum": ""
             },
             "require": {
@@ -1797,12 +1797,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "8fd34e4eae26c55c7aec04b9f452e10557b8bc89"
+                "reference": "a0ea84bbc307bc06c7198bb827a1a2b7d1915c7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/8fd34e4eae26c55c7aec04b9f452e10557b8bc89.zip",
-                "reference": "8fd34e4eae26c55c7aec04b9f452e10557b8bc89",
+                "url": "https://github.com/symfony/symfony/archive/a0ea84bbc307bc06c7198bb827a1a2b7d1915c7e.zip",
+                "reference": "a0ea84bbc307bc06c7198bb827a1a2b7d1915c7e",
                 "shasum": ""
             },
             "require": {
@@ -1851,7 +1851,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "2012-12-23 18:08:33",
+            "time": "2012-12-27 15:10:36",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -1934,18 +1934,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "a65e7e4e2e5726a42a29e609fad008f8a9600594"
+                "reference": "1b1a6e7de018d300e6eb67727f3717c24f4540ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/a65e7e4e2e5726a42a29e609fad008f8a9600594.zip",
-                "reference": "a65e7e4e2e5726a42a29e609fad008f8a9600594",
+                "url": "https://github.com/fabpot/Twig/archive/1b1a6e7de018d300e6eb67727f3717c24f4540ba.zip",
+                "reference": "1b1a6e7de018d300e6eb67727f3717c24f4540ba",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-12-25 10:06:30",
+            "time": "2012-12-27 16:33:50",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1979,7 +1979,51 @@
             ]
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "willdurand/propel-typehintable-behavior",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/TypehintableBehavior",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/willdurand/TypehintableBehavior/archive/1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": ""
+            },
+            "require": {
+                "propel/propel1": "1.6.*"
+            },
+            "time": "2012-07-15 14:03:24",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William DURAND",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "Insane Propel behavior that helps you to be compliant with third-party interfaces by adding type hint to generated methods.",
+            "keywords": [
+                "propel",
+                "Behavior",
+                "typehint"
+            ]
+        }
+    ],
     "aliases": [
         {
             "alias": "2.3.0",
