@@ -12,14 +12,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/alphalemon/common"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/alphalemon/Propel"
         }
     ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.1.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": "1.0.*",
-        "twig/extensions": "1.0.*",
+        "doctrine/doctrine-bundle": "1.1.*",
+        "twig/extensions": "1.0.*@dev",
         "symfony/assetic-bundle": "2.1.*",
         "symfony/swiftmailer-bundle": "2.1.*",
         "symfony/monolog-bundle": "2.1.*",
@@ -28,13 +32,14 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
+        "kriswallsmith/assetic": "1.1.*@dev",
         "alphalemon/alphalemon-cms-bundle": "1.0.*",
         "alphalemon/alphalemon-cms-installer-bundle": "1.0.*",        
         "doctrine/common": "dev-bugfix as 2.3.0"
     },
     "require-dev": {    
       "willdurand/propel-typehintable-behavior": "dev-master",  
-      "mikey179/vfsStream": "dev-master"
+      "mikey179/vfsStream": "1.1.0"
     },
     "scripts": {
         "post-install-cmd": [
