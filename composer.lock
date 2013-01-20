@@ -63,17 +63,17 @@
         },
         {
             "name": "alphalemon/alphalemon-cms-bundle",
-            "version": "1.0.1",
+            "version": "v1.0.1",
             "target-dir": "AlphaLemon/AlphaLemonCmsBundle",
             "source": {
                 "type": "git",
                 "url": "git://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "1.0.1"
+                "reference": "v1.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/archive/1.0.1.zip",
-                "reference": "1.0.1",
+                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/archive/v1.0.1.zip",
+                "reference": "v1.0.1",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
                 "willdurand/propel-typehintable-behavior": "dev-master",
                 "mikey179/vfsstream": "1.1.0"
             },
-            "time": "2013-01-20 08:39:17",
+            "time": "2013-01-20 09:47:02",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -537,19 +537,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "5b8a665a90d64bd98e3a9847b6af04934f4935ac"
+                "reference": "fd45c6f6baa618d871f3201fabe76df5043abb1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/archive/5b8a665a90d64bd98e3a9847b6af04934f4935ac.zip",
-                "reference": "5b8a665a90d64bd98e3a9847b6af04934f4935ac",
+                "url": "https://github.com/doctrine/dbal/archive/fd45c6f6baa618d871f3201fabe76df5043abb1e.zip",
+                "reference": "fd45c6f6baa618d871f3201fabe76df5043abb1e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "2013-01-19 18:24:19",
+            "time": "2013-01-20 11:50:36",
             "type": "library",
             "extra": {
                 "branch-alias": {
