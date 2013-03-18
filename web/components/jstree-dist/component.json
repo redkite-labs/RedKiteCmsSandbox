@@ -1,0 +1,9 @@
+{
+  "name": "jstree-dist",
+  "version": "0.0.0",
+  "commit": "b5a7af5b1eb158f0ba6c6105db24e9b50b72effd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spekkionu/jstree-dist.git"
+  }
+}

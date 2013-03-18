@@ -1,0 +1,9 @@
+{
+  "name": "pageguide",
+  "version": "0.0.0",
+  "commit": "eca9e25ea91e9a59a7747aa4dff39f473c033214",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tracelytics/pageguide.git"
+  }
+}

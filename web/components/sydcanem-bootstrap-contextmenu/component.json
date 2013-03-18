@@ -1,0 +1,9 @@
+{
+  "name": "sydcanem-bootstrap-contextmenu",
+  "version": "0.0.0",
+  "commit": "f3ee3e1f67faf96e528c80826f68ebbd6d3136c7",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sydcanem/bootstrap-contextmenu"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "jquery-metadata",
+  "version": "0.0.0",
+  "commit": "e5a9e4315675bf4d68716872ca754e858088f8ab",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jquery/jquery-metadata"
+  }
+}
