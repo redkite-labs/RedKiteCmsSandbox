@@ -33,8 +33,8 @@
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
-        "alphalemon/alphalemon-cms-bundle": "1.0.*",
-        "alphalemon/alphalemon-cms-installer-bundle": "1.0.*",        
+        "alphalemon/alphalemon-cms-bundle": "dev-master",
+        "alphalemon/alphalemon-cms-installer-bundle": "dev-master",        
         "doctrine/common": "dev-bugfix as 2.3.0"
     },
     "require-dev": {    
