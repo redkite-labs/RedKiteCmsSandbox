@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "ef4693320a97b3180ae44d17f6f3516862968189"
+                "reference": "2d73980d1fba2aa1ac9c4148cb45b4db475a9a60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/ef4693320a97b3180ae44d17f6f3516862968189",
-                "reference": "ef4693320a97b3180ae44d17f6f3516862968189",
+                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/2d73980d1fba2aa1ac9c4148cb45b4db475a9a60",
+                "reference": "2d73980d1fba2aa1ac9c4148cb45b4db475a9a60",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "phing/phing": "2.4.12",
                 "php": ">=5.3.3",
                 "propel/propel-bundle": "1.1.*",
-                "propel/propel1": "dev-master"
+                "propel/propel1": "1.6.*"
             },
             "require-dev": {
                 "alphalemon/business-website-theme-bundle": "dev-master",
@@ -137,7 +137,7 @@
                 "alphalemon",
                 "cms"
             ],
-            "time": "2013-04-05 11:27:05"
+            "time": "2013-04-06 08:25:05"
         },
         {
             "name": "alphalemon/alphalemon-cms-installer-bundle",
@@ -296,7 +296,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapNavbarBlockBundle.git",
-                "reference": "ef9df6602dd878bf2b07cd4367a5456c26d97e63"
+                "reference": "e0523df5d18274ba4705893df784105b0410d2eb"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -323,7 +323,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-04 04:22:11"
+            "time": "2013-04-06 07:39:03"
         },
         {
             "name": "alphalemon/app-bootstrap-slider-bundle",
@@ -440,7 +440,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/JstreeBundle.git",
-                "reference": "8012d82ec48116cf1a4db2460f838c29b13a6255"
+                "reference": "4bd172043df207088a16dedb6c7b3282db1fdff1"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -467,7 +467,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-03-22 05:36:13"
+            "time": "2013-04-06 07:36:57"
         },
         {
             "name": "alphalemon/bootbusiness-theme-bundle",
@@ -1781,12 +1781,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/MonologBundle.git",
-                "reference": "v2.1.9"
+                "reference": "56e69204105ff082f60b5c2ee80eb1c6f3b3c060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/v2.1.9",
-                "reference": "v2.1.9",
+                "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/56e69204105ff082f60b5c2ee80eb1c6f3b3c060",
+                "reference": "56e69204105ff082f60b5c2ee80eb1c6f3b3c060",
                 "shasum": ""
             },
             "require": {
@@ -1831,7 +1831,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2013-01-28 10:06:42"
+            "time": "2013-04-05 12:38:16"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -1894,12 +1894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "375ded4227f55b341898446434336fb56a3f11ef"
+                "reference": "7221d25fc427719d8c8f6653e32fa2b86c535670"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/375ded4227f55b341898446434336fb56a3f11ef",
-                "reference": "375ded4227f55b341898446434336fb56a3f11ef",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/7221d25fc427719d8c8f6653e32fa2b86c535670",
+                "reference": "7221d25fc427719d8c8f6653e32fa2b86c535670",
                 "shasum": ""
             },
             "require": {
@@ -1974,7 +1974,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-04-05 06:39:48"
+            "time": "2013-04-05 13:22:11"
         },
         {
             "name": "twig/extensions",
