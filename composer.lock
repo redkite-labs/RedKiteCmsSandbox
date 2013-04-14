@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "2d73980d1fba2aa1ac9c4148cb45b4db475a9a60"
+                "reference": "a1166c0f846b6f127a27d1ff88abc1113658f48d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/2d73980d1fba2aa1ac9c4148cb45b4db475a9a60",
-                "reference": "2d73980d1fba2aa1ac9c4148cb45b4db475a9a60",
+                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/a1166c0f846b6f127a27d1ff88abc1113658f48d",
+                "reference": "a1166c0f846b6f127a27d1ff88abc1113658f48d",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,6 @@
                 "propel/propel1": "1.6.*"
             },
             "require-dev": {
-                "alphalemon/business-website-theme-bundle": "dev-master",
                 "doctrine/doctrine-bundle": "1.1.*",
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
                 "jms/di-extra-bundle": "1.1.*",
@@ -137,7 +136,7 @@
                 "alphalemon",
                 "cms"
             ],
-            "time": "2013-04-06 08:25:05"
+            "time": "2013-04-14 08:10:42"
         },
         {
             "name": "alphalemon/alphalemon-cms-installer-bundle",
@@ -185,7 +184,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootbusinessProductBlockBundle.git",
-                "reference": "1e478a9cf17ba3144207f8d15d82416b763cdcfc"
+                "reference": "c11123b685421b0055c801ed06675742f09d5b82"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -212,7 +211,43 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-04 04:23:04"
+            "time": "2013-04-14 07:59:55"
+        },
+        {
+            "name": "alphalemon/app-bootstrap-accordion-bundle",
+            "version": "dev-master",
+            "target-dir": "AlphaLemon/Block/BootstrapAccordionBlockBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alphalemon/BootstrapAccordionBlockBundle.git",
+                "reference": "0cbfa4dd8b606fd9fc082eeceb264c700b31a12b"
+            },
+            "require-dev": {
+                "alphalemon/alphalemon-cms-bundle": "dev-master"
+            },
+            "type": "alphalemon-block-bundle",
+            "autoload": {
+                "psr-0": {
+                    "AlphaLemon\\Block\\BootstrapAccordionBlockBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AlphaLemon",
+                    "email": "info@alphalemon.com"
+                }
+            ],
+            "description": "An AlphaLemon CMS app-block  capable to manage a Twitter Bootstrap accordion by a nice ajax powered inteface",
+            "homepage": "http://alphalemon.com",
+            "keywords": [
+                "alphalemon",
+                "app",
+                "cms"
+            ],
+            "time": "2013-04-11 16:36:35"
         },
         {
             "name": "alphalemon/app-bootstrap-button-bundle",
@@ -221,7 +256,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapButtonBlockBundle.git",
-                "reference": "a8c273a68b685bf79bd03100057d4d81804d7daf"
+                "reference": "2449994fd9a568a1c903909d866f6cfe85fe8c3c"
             },
             "require": {
                 "alphalemon/app-jstree-bundle": "dev-master"
@@ -251,7 +286,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-04 04:22:39"
+            "time": "2013-04-11 16:27:36"
         },
         {
             "name": "alphalemon/app-bootstrap-label-bundle",
@@ -296,7 +331,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapNavbarBlockBundle.git",
-                "reference": "e0523df5d18274ba4705893df784105b0410d2eb"
+                "reference": "43b2b65fe028b2887bf58885e219ad4b32131b99"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -323,7 +358,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-06 07:39:03"
+            "time": "2013-04-11 16:28:20"
         },
         {
             "name": "alphalemon/app-bootstrap-slider-bundle",
@@ -332,7 +367,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapSliderBlockBundle.git",
-                "reference": "82084cb914ffadc23ca06d3380f4ad3eeafd7eeb"
+                "reference": "5f940aa185c93a1e0e38182f5cbbaf747151248d"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -359,7 +394,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-04 03:57:49"
+            "time": "2013-04-08 16:05:19"
         },
         {
             "name": "alphalemon/app-bootstrap-thumbnail-bundle",
@@ -368,7 +403,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapThumbnailBlockBundle.git",
-                "reference": "061cf52f1c6f1244a84128b8a4837396ba475a03"
+                "reference": "6c8f48e61889045373686cf79b7bdf4061de7e9f"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -395,7 +430,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-05 10:34:37"
+            "time": "2013-04-11 16:28:40"
         },
         {
             "name": "alphalemon/app-ckeditor-block-bundle",
@@ -440,7 +475,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/JstreeBundle.git",
-                "reference": "4bd172043df207088a16dedb6c7b3282db1fdff1"
+                "reference": "fd83fd222f5c3223a4d878113a1a20e32a0820f5"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -467,7 +502,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-06 07:36:57"
+            "time": "2013-04-13 10:28:21"
         },
         {
             "name": "alphalemon/bootbusiness-theme-bundle",
@@ -476,10 +511,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootbusinessThemeBundle.git",
-                "reference": "532a3de72bd44dcfea670cf8d92ace22177b8d50"
+                "reference": "82ddfbbf5c826e0ea676de4b17a509daf988044c"
             },
             "require": {
                 "alphalemon/app-bootbusiness-product-bundle": "dev-master",
+                "alphalemon/app-bootstrap-accordion-bundle": "dev-master",
                 "alphalemon/app-bootstrap-button-bundle": "dev-master",
                 "alphalemon/app-bootstrap-label-bundle": "dev-master",
                 "alphalemon/app-bootstrap-navbar-bundle": "dev-master",
@@ -509,7 +545,7 @@
                 "cms",
                 "theme"
             ],
-            "time": "2013-03-30 06:12:01"
+            "time": "2013-04-14 07:59:03"
         },
         {
             "name": "alphalemon/elfinder-bundle",
@@ -822,12 +858,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "66b6b7169e523547fb17856060cea1b350833d51"
+                "reference": "803f2740c9073fdf94e327c555d496078f82d8ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/66b6b7169e523547fb17856060cea1b350833d51",
-                "reference": "66b6b7169e523547fb17856060cea1b350833d51",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/803f2740c9073fdf94e327c555d496078f82d8ce",
+                "reference": "803f2740c9073fdf94e327c555d496078f82d8ce",
                 "shasum": ""
             },
             "require": {
@@ -884,10 +920,10 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-04-04 18:35:01"
+            "time": "2013-04-14 07:52:39"
         },
         {
-            "name": "imagine/Imagine",
+            "name": "imagine/imagine",
             "version": "dev-master",
             "source": {
                 "type": "git",
@@ -1058,7 +1094,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1528,12 +1564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensio/SensioDistributionBundle.git",
-                "reference": "edc23c499626993e4aaad3de2e4bd93d4d8d990c"
+                "reference": "6ba9c464d8cf408b1e5699673d6b7ce1eb0ead28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensio/SensioDistributionBundle/zipball/edc23c499626993e4aaad3de2e4bd93d4d8d990c",
-                "reference": "edc23c499626993e4aaad3de2e4bd93d4d8d990c",
+                "url": "https://api.github.com/repos/sensio/SensioDistributionBundle/zipball/6ba9c464d8cf408b1e5699673d6b7ce1eb0ead28",
+                "reference": "6ba9c464d8cf408b1e5699673d6b7ce1eb0ead28",
                 "shasum": ""
             },
             "require": {
@@ -1565,7 +1601,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2013-04-05 06:44:39"
+            "time": "2013-04-09 09:20:26"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1894,12 +1930,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "7221d25fc427719d8c8f6653e32fa2b86c535670"
+                "reference": "ef0cebfaa6b32e93aa244c4150b962b8957f80a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/7221d25fc427719d8c8f6653e32fa2b86c535670",
-                "reference": "7221d25fc427719d8c8f6653e32fa2b86c535670",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/ef0cebfaa6b32e93aa244c4150b962b8957f80a8",
+                "reference": "ef0cebfaa6b32e93aa244c4150b962b8957f80a8",
                 "shasum": ""
             },
             "require": {
@@ -1974,7 +2010,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-04-05 13:22:11"
+            "time": "2013-04-13 14:47:44"
         },
         {
             "name": "twig/extensions",
@@ -2029,12 +2065,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "399916916533589c95dc04e1afd4aeefa34928ad"
+                "reference": "f9ad8c089d439a8a41ffd196f6096fbaba0863c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/399916916533589c95dc04e1afd4aeefa34928ad",
-                "reference": "399916916533589c95dc04e1afd4aeefa34928ad",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/f9ad8c089d439a8a41ffd196f6096fbaba0863c1",
+                "reference": "f9ad8c089d439a8a41ffd196f6096fbaba0863c1",
                 "shasum": ""
             },
             "require": {
@@ -2070,10 +2106,83 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-04-01 08:27:18"
+            "time": "2013-04-13 06:32:43"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "mikey179/vfsStream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream",
+                "reference": "v1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mikey179/vfsStream/zipball/v1.1.0",
+                "reference": "v1.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2012-08-25 05:49:29"
+        },
+        {
+            "name": "willdurand/propel-typehintable-behavior",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/TypehintableBehavior.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/TypehintableBehavior/zipball/1.0.3",
+                "reference": "1.0.3",
+                "shasum": ""
+            },
+            "require": {
+                "propel/propel1": "1.6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "Insane Propel behavior that helps you to be compliant with third-party interfaces by adding type hint to generated methods.",
+            "keywords": [
+                "Behavior",
+                "propel",
+                "typehint"
+            ],
+            "time": "2012-07-15 14:03:24"
+        }
+    ],
     "aliases": [
         {
             "alias": "2.3.0",
