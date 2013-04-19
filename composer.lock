@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "a1166c0f846b6f127a27d1ff88abc1113658f48d"
+                "reference": "b82b04482ff0cfe6a63157be3d6a4dcce9cbcf03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/a1166c0f846b6f127a27d1ff88abc1113658f48d",
-                "reference": "a1166c0f846b6f127a27d1ff88abc1113658f48d",
+                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/b82b04482ff0cfe6a63157be3d6a4dcce9cbcf03",
+                "reference": "b82b04482ff0cfe6a63157be3d6a4dcce9cbcf03",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "alphalemon",
                 "cms"
             ],
-            "time": "2013-04-14 08:10:42"
+            "time": "2013-04-18 05:00:09"
         },
         {
             "name": "alphalemon/alphalemon-cms-installer-bundle",
@@ -184,7 +184,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootbusinessProductBlockBundle.git",
-                "reference": "c11123b685421b0055c801ed06675742f09d5b82"
+                "reference": "949baab5b885316da19a761b6064494d664c21f4"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -211,7 +211,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-14 07:59:55"
+            "time": "2013-04-16 10:49:22"
         },
         {
             "name": "alphalemon/app-bootstrap-accordion-bundle",
@@ -256,7 +256,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapButtonBlockBundle.git",
-                "reference": "2449994fd9a568a1c903909d866f6cfe85fe8c3c"
+                "reference": "e50b676bc9f9737ea2a7db02a48c23bf82ef073f"
             },
             "require": {
                 "alphalemon/app-jstree-bundle": "dev-master"
@@ -286,7 +286,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-11 16:27:36"
+            "time": "2013-04-18 16:12:15"
         },
         {
             "name": "alphalemon/app-bootstrap-label-bundle",
@@ -439,7 +439,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/CKEditorBlockBundle.git",
-                "reference": "4dcc297d43edc52969f6e53c22b1c761a2c1605b"
+                "reference": "ebb1ca23ac0da1e84e55968ed426540d0f871124"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
@@ -466,7 +466,7 @@
                 "app",
                 "cms"
             ],
-            "time": "2013-04-04 03:59:32"
+            "time": "2013-04-16 18:31:29"
         },
         {
             "name": "alphalemon/app-jstree-bundle",
@@ -511,7 +511,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootbusinessThemeBundle.git",
-                "reference": "82ddfbbf5c826e0ea676de4b17a509daf988044c"
+                "reference": "27487bda1a6a0f167c83167f254637da092079a4"
             },
             "require": {
                 "alphalemon/app-bootbusiness-product-bundle": "dev-master",
@@ -545,7 +545,7 @@
                 "cms",
                 "theme"
             ],
-            "time": "2013-04-14 07:59:03"
+            "time": "2013-04-16 03:57:16"
         },
         {
             "name": "alphalemon/elfinder-bundle",
@@ -726,12 +726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "dd69835e0dcc44f7f0726b105e83ae5013622f5c"
+                "reference": "c75da707518488506efa93e29fb67cf278353f85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/dd69835e0dcc44f7f0726b105e83ae5013622f5c",
-                "reference": "dd69835e0dcc44f7f0726b105e83ae5013622f5c",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/c75da707518488506efa93e29fb67cf278353f85",
+                "reference": "c75da707518488506efa93e29fb67cf278353f85",
                 "shasum": ""
             },
             "require": {
@@ -781,7 +781,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-03-24 19:16:29"
+            "time": "2013-04-14 12:36:49"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -1930,12 +1930,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "ef0cebfaa6b32e93aa244c4150b962b8957f80a8"
+                "reference": "8be013d8fb5e0d6410310e9f3f35cca78177a804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/ef0cebfaa6b32e93aa244c4150b962b8957f80a8",
-                "reference": "ef0cebfaa6b32e93aa244c4150b962b8957f80a8",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/8be013d8fb5e0d6410310e9f3f35cca78177a804",
+                "reference": "8be013d8fb5e0d6410310e9f3f35cca78177a804",
                 "shasum": ""
             },
             "require": {
@@ -2010,7 +2010,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-04-13 14:47:44"
+            "time": "2013-04-17 12:11:36"
         },
         {
             "name": "twig/extensions",
@@ -2065,12 +2065,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "f9ad8c089d439a8a41ffd196f6096fbaba0863c1"
+                "reference": "80fd11cbbe68fada461626e7b2d67bda0ef8ecfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/f9ad8c089d439a8a41ffd196f6096fbaba0863c1",
-                "reference": "f9ad8c089d439a8a41ffd196f6096fbaba0863c1",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/80fd11cbbe68fada461626e7b2d67bda0ef8ecfa",
+                "reference": "80fd11cbbe68fada461626e7b2d67bda0ef8ecfa",
                 "shasum": ""
             },
             "require": {
@@ -2106,83 +2106,10 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-04-13 06:32:43"
+            "time": "2013-04-17 12:07:50"
         }
     ],
-    "packages-dev": [
-        {
-            "name": "mikey179/vfsStream",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mikey179/vfsStream",
-                "reference": "v1.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/mikey179/vfsStream/zipball/v1.1.0",
-                "reference": "v1.1.0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "org\\bovigo\\vfs": "src/main/php"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "homepage": "http://vfs.bovigo.org/",
-            "time": "2012-08-25 05:49:29"
-        },
-        {
-            "name": "willdurand/propel-typehintable-behavior",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/willdurand/TypehintableBehavior.git",
-                "reference": "1.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/TypehintableBehavior/zipball/1.0.3",
-                "reference": "1.0.3",
-                "shasum": ""
-            },
-            "require": {
-                "propel/propel1": "1.6.*"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "William Durand",
-                    "email": "william.durand1@gmail.com",
-                    "homepage": "http://www.willdurand.fr"
-                }
-            ],
-            "description": "Insane Propel behavior that helps you to be compliant with third-party interfaces by adding type hint to generated methods.",
-            "keywords": [
-                "Behavior",
-                "propel",
-                "typehint"
-            ],
-            "time": "2012-07-15 14:03:24"
-        }
-    ],
+    "packages-dev": null,
     "aliases": [
         {
             "alias": "2.3.0",
