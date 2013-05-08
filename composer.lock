@@ -604,12 +604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/ThemeEngineBundle.git",
-                "reference": "6f76331b1c161d003f84a8c12a84ddfa2ff79166"
+                "reference": "82d9e9c913d7f37af045d265cf2d817dc87fe40f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alphalemon/ThemeEngineBundle/zipball/6f76331b1c161d003f84a8c12a84ddfa2ff79166",
-                "reference": "6f76331b1c161d003f84a8c12a84ddfa2ff79166",
+                "url": "https://api.github.com/repos/alphalemon/ThemeEngineBundle/zipball/82d9e9c913d7f37af045d265cf2d817dc87fe40f",
+                "reference": "82d9e9c913d7f37af045d265cf2d817dc87fe40f",
                 "shasum": ""
             },
             "require": {
@@ -655,7 +655,7 @@
                 "theme",
                 "themes"
             ],
-            "time": "2013-03-30 05:48:03"
+            "time": "2013-05-08 17:52:27"
         },
         {
             "name": "doctrine/common",
