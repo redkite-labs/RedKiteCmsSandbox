@@ -11,7 +11,6 @@ php:
 
 before_script:
   - mysql -e 'create database alphalemon_test;'
-  - unlink composer.lock
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install --dev
   - php app/console alphalemon:install-cms --company=Acme --bundle=WebSiteBundle --dsn="mysql:host=localhost;port=3306;dbname=alphalemon_test" --user=root --password= --no-interaction
