@@ -72,12 +72,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "87dec1a78390ce278e0b38b3bafa71db2e61085b"
+                "reference": "70bb8772904b5492c68bfafa100bdb81061b51cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/87dec1a78390ce278e0b38b3bafa71db2e61085b",
-                "reference": "87dec1a78390ce278e0b38b3bafa71db2e61085b",
+                "url": "https://api.github.com/repos/alphalemon/AlphaLemonCmsBundle/zipball/70bb8772904b5492c68bfafa100bdb81061b51cb",
+                "reference": "70bb8772904b5492c68bfafa100bdb81061b51cb",
                 "shasum": ""
             },
             "require": {
@@ -141,7 +141,7 @@
                 "alphalemon",
                 "cms"
             ],
-            "time": "2013-05-23 10:51:47"
+            "time": "2013-05-26 10:36:43"
         },
         {
             "name": "alphalemon/alphalemon-cms-installer-bundle",
@@ -605,12 +605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/ThemeEngineBundle.git",
-                "reference": "2da2f46ed7a5572f3ea48ed39662e8766579cebc"
+                "reference": "37cd8cd4305317b63755ff22ad0b0226e7ba16b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alphalemon/ThemeEngineBundle/zipball/2da2f46ed7a5572f3ea48ed39662e8766579cebc",
-                "reference": "2da2f46ed7a5572f3ea48ed39662e8766579cebc",
+                "url": "https://api.github.com/repos/alphalemon/ThemeEngineBundle/zipball/37cd8cd4305317b63755ff22ad0b0226e7ba16b4",
+                "reference": "37cd8cd4305317b63755ff22ad0b0226e7ba16b4",
                 "shasum": ""
             },
             "require": {
@@ -656,7 +656,7 @@
                 "theme",
                 "themes"
             ],
-            "time": "2013-05-23 04:25:53"
+            "time": "2013-05-26 05:21:05"
         },
         {
             "name": "doctrine/common",
@@ -863,12 +863,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "425f375899b9b054867ea3a3cb752dabdd874651"
+                "reference": "9787b27518bf4e4da1523ced6bfca74e98397907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/425f375899b9b054867ea3a3cb752dabdd874651",
-                "reference": "425f375899b9b054867ea3a3cb752dabdd874651",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/9787b27518bf4e4da1523ced6bfca74e98397907",
+                "reference": "9787b27518bf4e4da1523ced6bfca74e98397907",
                 "shasum": ""
             },
             "require": {
@@ -925,7 +925,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-05-11 07:51:12"
+            "time": "2013-05-26 07:27:03"
         },
         {
             "name": "imagine/imagine",
@@ -1935,12 +1935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "e789a02d5afa58dea2b08ef4f7515ee5f352dbb5"
+                "reference": "e9f43bf675ed9c936e4feceddebd98e1f8660f1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/e789a02d5afa58dea2b08ef4f7515ee5f352dbb5",
-                "reference": "e789a02d5afa58dea2b08ef4f7515ee5f352dbb5",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/e9f43bf675ed9c936e4feceddebd98e1f8660f1b",
+                "reference": "e9f43bf675ed9c936e4feceddebd98e1f8660f1b",
                 "shasum": ""
             },
             "require": {
@@ -2015,7 +2015,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-05-23 02:09:04"
+            "time": "2013-05-25 15:47:15"
         },
         {
             "name": "twig/extensions",
@@ -2070,12 +2070,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "ba88c755579c06e7ccb5ee73c6e27e88a1fed114"
+                "reference": "b081e3f1ed64b8246bfcadef3e66233ab2c0ffd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ba88c755579c06e7ccb5ee73c6e27e88a1fed114",
-                "reference": "ba88c755579c06e7ccb5ee73c6e27e88a1fed114",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/b081e3f1ed64b8246bfcadef3e66233ab2c0ffd9",
+                "reference": "b081e3f1ed64b8246bfcadef3e66233ab2c0ffd9",
                 "shasum": ""
             },
             "require": {
@@ -2111,7 +2111,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-05-17 10:06:31"
+            "time": "2013-05-25 15:56:42"
         }
     ],
     "packages-dev": null,
