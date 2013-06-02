@@ -8,14 +8,6 @@
         {
             "type": "composer",
             "url": "http://apps.alphalemon.com/"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/alphalemon/common"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/alphalemon/Propel"
         }
     ],
     "require": {
@@ -34,8 +26,7 @@
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
         "alphalemon/alphalemon-cms-bundle": "dev-master",
-        "alphalemon/alphalemon-cms-installer-bundle": "dev-master",        
-        "doctrine/common": "dev-bugfix as 2.3.0"
+        "alphalemon/alphalemon-cms-installer-bundle": "dev-master"
     },
     "require-dev": {    
       "willdurand/propel-typehintable-behavior": "dev-master",  
