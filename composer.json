@@ -26,7 +26,8 @@
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
         "alphalemon/alphalemon-cms-bundle": "dev-master",
-        "alphalemon/alphalemon-cms-installer-bundle": "dev-master"
+        "alphalemon/alphalemon-cms-installer-bundle": "dev-master",
+    	"alphalemon/bootbusiness-theme-bundle": "dev-master",
     },
     "require-dev": {    
       "willdurand/propel-typehintable-behavior": "dev-master",  
