@@ -4,16 +4,14 @@
   "dependencies": {
     "jquery": "~1.8.3",
     "jquery-easing": "*",
-    "jquery-metadata": "*",
-    "holderjs": "*",
-    "pageguide": "https://github.com/tracelytics/pageguide.git"
+    "holderjs": "*"
   },
-  "gitHead": "b6dbec12f49054c10c20da2bf235a1554be0f219",
+  "gitHead": "9db6f5b8edf9243e4241a33ee5d232c636818c51",
   "readme": "AlphaLemon CMS bower package \n",
   "readmeFilename": "README.md",
-  "_id": "alphalemon.component@1.0.3",
+  "_id": "alphalemon.component@1.0.4",
   "description": "AlphaLemon CMS bower package",
-  "commit": "b6dbec12f49054c10c20da2bf235a1554be0f219",
+  "commit": "9db6f5b8edf9243e4241a33ee5d232c636818c51",
   "repository": {
     "type": "git",
     "url": "https://github.com/alphalemon/alphalemoncms-component.git"
