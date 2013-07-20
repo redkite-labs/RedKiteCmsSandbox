@@ -19,10 +19,6 @@
             <directory>../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle/Tests</directory>
             <directory>../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle/Bundle/AlphaLemon/Block/*/Tests</directory>
             <directory>../vendor/alphalemon/theme-engine-bundle/AlphaLemon/ThemeEngineBundle/Tests/Unit</directory>
-            <directory>../vendor/alphalemon/app-business-carousel-bundle/AlphaLemon/Block/BusinessCarouselBundle/Tests</directory>
-            <directory>../vendor/alphalemon/app-business-dropcap-bundle/AlphaLemon/Block/BusinessDropCapBundle/Tests</directory>
-            <directory>../vendor/alphalemon/app-business-menu-bundle/AlphaLemon/Block/BusinessMenuBundle/Tests</directory>
-            <directory>../vendor/alphalemon/app-business-slider-bundle/AlphaLemon/Block/BusinessSliderBundle/Tests</directory>
         </testsuite>
     </testsuites>
 
