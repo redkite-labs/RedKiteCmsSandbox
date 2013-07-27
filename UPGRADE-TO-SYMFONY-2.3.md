@@ -87,3 +87,9 @@ they require have already been made.
 Repeat the steps for web/app_dev.php for web/alcms_dev.php and web/stage_dev.php.
 
 Don't change the minimum-stability flag, because AlphaLemon CMS is not stable yet.
+
+bootstrap.php.cache
+-------------------
+
+Copy the app/bootstrap.php.cache file from the Symfony 2.3 package to your application
+app folder
