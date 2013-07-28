@@ -58,11 +58,7 @@ to start using AlphaLemonCMS.
 
 Installing using the web interface
 ----------------------------------
-Installing AlphaLemonCMS using the web interface requires an addictional step:
-
-    app/console assets:install web
-
-After the assets have been installed, point your browser at:
+To Install AlphaLemonCMS using the web interface, just point your browser at:
 
     http://localhost/app_dev.php/install
 
