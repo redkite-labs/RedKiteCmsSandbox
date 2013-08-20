@@ -11,7 +11,7 @@
     processIsolation            = "false"
     stopOnFailure               = "true"
     syntaxCheck                 = "false"
-    bootstrap                   = "../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle/Tests/app_bootstrap.php" >
+    bootstrap                   = "../vendor/redkite-cms/redkite-cms-bundle/RedKiteLabs/RedKiteCmsBundle/Tests/app_bootstrap.php" >
 
     <testsuites>
         <testsuite name="AlphaLemonCmsBundle Test Suite">
