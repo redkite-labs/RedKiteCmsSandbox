@@ -1,2 +1,2 @@
-_AlphaLemonCmsInstallerBundle:
-    resource: "@AlphaLemonCmsInstallerBundle/Resources/config/routing.yml"
+_RedKiteCmsInstallerBundle:
+    resource: "@RedKiteCmsInstallerBundle/Resources/config/routing.yml"
