@@ -32,6 +32,7 @@
         "redkite-cms/redkite-cms-bundle": "dev-master",
         "redkite-cms/installer-bundle": "dev-master",
     	"redkite-labs/bootbusiness-theme-bundle": "dev-master",
+        "redkite-cms/redkite-cms-base-blocks": "dev-master",
 	"redkite-cms/tinymce-block-bundle": "dev-master"
     },
     "require-dev": {    
