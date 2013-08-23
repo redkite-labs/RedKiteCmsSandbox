@@ -1,5 +1,5 @@
 {
-    "name": "alphalemon/alphalemon-cms-sandbox",
+    "name": "redkite-labs/redkite-cms-sandbox",
     "description": "The \"AlphaLemon CMS Sandbox\" distribution",
     "autoload": {
         "psr-0": { "": "src/" }
