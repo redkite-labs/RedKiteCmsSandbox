@@ -14,11 +14,13 @@
     bootstrap                   = "../vendor/redkite-cms/redkite-cms-bundle/RedKiteLabs/RedKiteCmsBundle/Tests/app_bootstrap.php" >
 
     <testsuites>
-        <testsuite name="AlphaLemonCmsBundle Test Suite">
-            <directory>../vendor/alphalemon/alphalemon-bootstrap-bundle/AlphaLemon/BootstrapBundle/Tests</directory>
-            <directory>../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle/Tests</directory>
-            <directory>../vendor/alphalemon/alphalemon-cms-bundle/AlphaLemon/AlphaLemonCmsBundle/Bundle/AlphaLemon/Block/*/Tests</directory>
-            <directory>../vendor/alphalemon/theme-engine-bundle/AlphaLemon/ThemeEngineBundle/Tests/Unit</directory>
+        <testsuite name="RedKite Sandbox Test Suite">
+            <directory>../vendor/redkite-labs/redkite-labs-bootstrap-bundle/RedKiteLabs/BootstrapBundle/Tests</directory>
+            <directory>../vendor/redkite-cms/redkite-cms-bundle/RedKiteLabs/RedKiteCmsBundle/Tests</directory>
+            <directory>../vendor/redkite-cms/redkite-cms-base-blocks/RedKiteCms/Block/RedKiteCmsBaseBlocksBundle/Tests</directory>
+            <directory>../vendor/redkite-cms/tinymce-block-bundle/RedKiteCms/Block/TinyMceBlockBundle/Tests</directory>
+            <directory>../vendor/redkite-cms/twitter-bootstrap/RedKiteCms/Block/TwitterBootstrapBundle/Tests</directory>
+            <!--<directory>../vendor/redkite-labs/redkite-labs-theme-engine-bundle/RedKiteLabs/ThemeEngineBundle/Tests/Unit</directory>-->
         </testsuite>
     </testsuites>
 
