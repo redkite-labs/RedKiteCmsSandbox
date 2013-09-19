@@ -1,19 +1,20 @@
-AlphaLemon CMS Sandbox
-======================
-Welcome to the AlphaLemon CMS Sandbox - a fully-functional Symfony2
-application, powered by AlphaLemon CMS, that you can use as the skeleton
-for your new app.
+RedKite CMS Sandbox
+====================
+Welcome to RedKite CMS Sandbox - a fully-functional Symfony2 application
+powered by RedKite CMS. You can use this application as skeleton for 
+your new project or to test the CMS itself.
 
-This document contains information on how to download and start using AlphaLemon CMS.
+This document contains information on how to download and to start using 
+RedKite CMS.
 
-[![Build Status](https://secure.travis-ci.org/alphalemon/AlphaLemonCmsSandbox.png)](http://travis-ci.org/alphalemon/AlphaLemonCmsSandbox)
+[![Build Status](https://secure.travis-ci.org/redkite-labs/RedKiteCmsSandbox.png)](http://travis-ci.org/redkite-labs/RedKiteCmsSandbox)
 
 
 Download
 --------
 From your console run the following command:
 
-    git clone https://github.com/alphalemon/AlphaLemonCmsSandbox.git
+    git clone https://github.com/redkite-labs/RedKiteCmsSandbox.git
 
 
 Permissions
@@ -27,7 +28,7 @@ Vendor libraries installation
 
 > This step is required only if you are using the "without vendors" sandbox
 
-Once you've downloaded and uncompressed the AlphaLemon CMS Sandbox, just open a console,
+Once you've downloaded and uncompressed RedKite CMS Sandbox, just open a console,
 move to the root folder and give the following command to download composer and install
 the required vendor libraries:
 
@@ -35,85 +36,89 @@ the required vendor libraries:
     php composer.phar install
 
 
-AlphaLemon CMS setup
---------------------
-AlphaLemonCMS requires several steps to be accomplished to properly setup the CMS itself. Luckily
-the **AlphaLemonCmsInstallerBundle** will do all the job for you, providing a web installer interface
-or an interactive symdony2 command to install AlphaLemonCMS.
+RedKite CMS setup
+-----------------
+RedKite CMS requires several steps to be accomplished to properly setup the CMS itself. Luckily
+the **RedKiteCmsInstallerBundle** will do all the job for you. 
 
+This bundle provides a web installer interface or an interactive symdony2 command to install 
+RedKite CMS.
 
 Installing from the console
 ---------------------------
-Installing AlphaLemonCMS from the console is really easy:
+Installing RedKite CMS from the console is really easy:
 
-    app/console alphalemon:install-cms
+    app/console rekitecms:install
 
-This will run the interactive command. Provide the required information and you are done! Point
-your browser at
+This will run the interactive command. Simply provide the required information and you are done! 
 
-    http://localhost/alcms.php/backend/login
+When the setup ends, point your browser at
 
-to start using AlphaLemonCMS.
+    http://localhost/rkcms.php/backend/login
+
+to start using RedKite CMS.
 
 
 Installing using the web interface
 ----------------------------------
-To Install AlphaLemonCMS using the web interface, just point your browser at:
+To install RedKite CMS using the web interface, just point your browser at:
 
     http://localhost/app_dev.php/install
 
 Provide the required information and you are done! 
 
 
-Signin
-------
-AlphaLemonCms is secured by default and a new user is created when the application is installed:
+Sign in
+-------
+RedKite CMS is secured by default and a new user is created when the application is 
+installed:
 
     username: admin
     password: admin
 
-enter the credentials above to signin.
+enter the credentials above to sign in.
 
 
 Documentation
 -------------
-You can read AlphaLemon CMS official documentation at alphalemon.com:
+Although RedKite CMS is designed to be as simple and intuitive as possible, you probably 
+would like to go deeper reading some documentation:
 
-- [The book](http://alphalemon.com/the-official-alphalemon-cms-documentation)
-- [The cookbook](http://alphalemon.com/alphalemon-cms-cookbook)
-- [Developers guide](http://alphalemon.com/getting-started-contributing-to-alphalemon-cms)
+- [The book](http://redkite-labs.com/getting-started-with-redkite-cms)
+- [The cookbook](http://redkite-labs.com/redkite-cms-practical-manual-part-1)
+- [Developers guide](http://redkite-labs.com/getting-started-contributing-to-redkite-cms)
 
-AlphaLemon CMS [documentation repository](https://github.com/alphalemon/alphalemon-docs)
+RedKite CMS [documentation repository](https://github.com/redkite-labs/redkitecms-docs)
 lives at github.
 
 
 Support
 -------
-If you require support you can ask for help at [AlphaLemon CSM users forum](https://groups.google.com/forum/?hl=it#!forum/alphalemoncms-users).
+If you require support you can ask for help at [RedKite CSM users forum](https://groups.google.com/forum/?hl=it#!forum/alphalemoncms-users).
 
-If you want to collaborate, just introduce yourself at [AlphaLemon CSM developers forum](https://groups.google.com/forum/?hl=it#!forum/alphalemoncms-dev).
+If you want to collaborate, just introduce yourself at [RedKite CSM developers forum](https://groups.google.com/forum/?hl=it#!forum/alphalemoncms-dev).
 
 
 Stay in touch
 -------------
-AlphaLemon CMS is present on major social networks:
+RedKite CMS is present on major social networks:
 
-Follow [@alphalemoncms on Twitter](https://twitter.com/alphalemoncms) for the latest news
+Follow [@redkite-labs on Twitter](https://twitter.com/edkite-labs) for the latest news
 
-Like AlphaLemon CMS at [Facebook](https://www.facebook.com/alphalemon)
+Like RedKite CMS at [Facebook](https://www.facebook.com/redkitecms)
 
-Connect with AlphaLemon CMS at [Google+](https://plus.google.com/103994964006724386514/posts)
+Connect with RedKite CMS at [Google+](https://plus.google.com/103994964006724386514/posts)
 
 
 Notes for windows users
 -----------------------
-AlphaLemon CMS has been written on a linux system machine, so you might encounter some small issues when
+RedKite CMS has been written on a linux system machine, so you might encounter some small issues when
 you work on a windows machine:
 
 - assetic:dump command might return an error
 - Skin problems
 
-None of those problems breaks the usability of AlphaLemon CMS. If you are a windows user and you want
+None of those problems breaks the usability of RedKite CMS. If you are a windows user and you want
 to fix them on your own, fork the repository, do the fixes then ask for a pull request: it would be really
 appreciated! :)
 
