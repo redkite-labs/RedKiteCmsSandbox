@@ -13,7 +13,7 @@ before_script:
   - mysql -e 'create database alphalemon_test;'
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install --dev
-  - php app/console redkitecms:install --company=Acme --bundle=WebSiteBundle --dsn="mysql:host=localhost;port=3306;dbname=alphalemon_test" --user=root --password= --no-interaction
+  - php app/console redkitecms:install --company=Acme --bundle=WebSiteBundle --dsn="mysql:host=localhost;port=3306;dbname=alphalemon_test" --user=root --password= --website-url=http://example.com/ --no-interaction
 
 script: phpunit -c app
 
