@@ -94,16 +94,16 @@ lives at github.
 
 Support
 -------
-If you require support you can ask for help at [RedKite CSM users forum](https://groups.google.com/forum/?hl=it#!forum/alphalemoncms-users).
+If you require support you can ask for help at [RedKite CSM users forum](https://groups.google.com/forum/?hl=it#!forum/redkitecms-users).
 
-If you want to collaborate, just introduce yourself at [RedKite CSM developers forum](https://groups.google.com/forum/?hl=it#!forum/alphalemoncms-dev).
+If you want to collaborate, just introduce yourself at [RedKite CSM developers forum](https://groups.google.com/forum/?hl=it#!forum/redkitecms-dev).
 
 
 Stay in touch
 -------------
 RedKite CMS is present on major social networks:
 
-Follow [@redkite-labs on Twitter](https://twitter.com/edkite-labs) for the latest news
+Follow [@redkite-cms on Twitter](https://twitter.com/redkitecms) for the latest news
 
 Like RedKite CMS at [Facebook](https://www.facebook.com/redkitecms)
 
