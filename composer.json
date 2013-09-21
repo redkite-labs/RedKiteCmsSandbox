@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.3.*",
+        "symfony/symfony": "2.3.4",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "1.2.*",
         "twig/extensions": "1.0.*",
@@ -29,11 +29,11 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-        "redkite-cms/redkite-cms-bundle": "dev-master",
-        "redkite-cms/installer-bundle": "dev-master",
-    	"redkite-labs/bootbusiness-theme-bundle": "dev-master",
-        "redkite-cms/redkite-cms-base-blocks": "dev-master",
-	    "redkite-cms/tinymce-block-bundle": "dev-master"
+        "redkite-cms/redkite-cms-bundle": "1.1.0-beta",
+        "redkite-cms/installer-bundle": "1.1.0-beta",
+    	"redkite-labs/bootbusiness-theme-bundle": "1.1.0-beta",
+        "redkite-cms/redkite-cms-base-blocks": "1.1.0-beta",
+	    "redkite-cms/tinymce-block-bundle": "1.1.0-beta"
     },
     "require-dev": {    
       "willdurand/propel-typehintable-behavior": "dev-master",  
