@@ -107,7 +107,7 @@ Follow [@redkite-cms on Twitter](https://twitter.com/redkitecms) for the latest 
 
 Like RedKite CMS at [Facebook](https://www.facebook.com/redkitecms)
 
-Connect with RedKite CMS at [Google+](https://plus.google.com/103994964006724386514/posts)
+Connect with RedKite CMS at [Google+](https://plus.google.com/103994964006724386514)
 
 
 Notes for windows users
