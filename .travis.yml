@@ -10,10 +10,10 @@ php:
 #  - DB=sqlite
 
 before_script:
-  - mysql -e 'create database redkite_test;'
+  #- mysql -e 'create database redkite_test;'
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install --dev
-  - php app/console redkitecms:install --env=rkcms_dev --driver=sqlite --host=localhost --database=redkite_test --no-interaction
+  - php app/console redkitecms:install --driver=sqlite --host=localhost --database=redkite_test --no-interaction
 
 script: phpunit -c app
 
