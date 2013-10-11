@@ -4,10 +4,10 @@ php:
   - 5.3
   - 5.4
 
--- env:
---  - DB=mysql
---  - DB=pgsql
---  - DB=sqlite
+# env:
+#  - DB=mysql
+#  - DB=pgsql
+#  - DB=sqlite
 
 before_script:
   - mysql -e 'create database redkite_test;'
