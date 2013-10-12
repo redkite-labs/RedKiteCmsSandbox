@@ -1,39 +1,44 @@
 RedKite CMS Sandbox
-====================
-Welcome to RedKite CMS Sandbox - a fully-functional Symfony2 application
-powered by RedKite CMS. You can use this application as skeleton for 
-your new project or to test the CMS itself.
+===================
+Welcome to RedKite CMS Sandbox - a fully-functional Symfony2 application powered by 
+RedKite CMS. You can use this application as skeleton for  your new project or to test 
+the CMS itself.
 
-This document contains information on how to download and to start using 
-RedKite CMS.
+This document contains information on how to download and to start using RedKite CMS.
 
 [![Build Status](https://secure.travis-ci.org/redkite-labs/RedKiteCmsSandbox.png)](http://travis-ci.org/redkite-labs/RedKiteCmsSandbox)
 
+Before starting
+---------------
+This repository houses the RedKite CMS Sandbox and requires to install vendor libraries 
+and then the CMS itself and it is the right place to start if you would like to contribute 
+to RedKite CMS project.
 
-Download
---------
+If you just want to try something ready, have a look to the [Get & Go Sandbox](http://redkite-labs.com/download-get-and-go-redkite-cms-sandbox),
+ideal to have a quick try the application and perfect to be used by a single developer, or
+to the [RedKite CMS Sandbox](http://redkite-labs.com/download-redkite-cms-sandbox) which has the
+required vendor libraries installed. Follow the links to have more details about those products.
+
+
+Install the RedKite CMS Sandbox without vendors
+-----------------------------------------------
 From your console run the following command:
 
     git clone https://github.com/redkite-labs/RedKiteCmsSandbox.git
+
+
+To install the RedKite CMS Sandbox vendors libraries, just open a console, move to 
+the root folder and give the following command to download composer and install the 
+required vendor libraries:
+
+    curl -s http://getcomposer.org/installer | php
+    php composer.phar install
 
 
 Permissions
 -----------
 Setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
 tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
-
-
-Vendor libraries installation
------------------------------
-
-> This step is required only if you are using the "without vendors" sandbox
-
-Once you've downloaded and uncompressed RedKite CMS Sandbox, just open a console,
-move to the root folder and give the following command to download composer and install
-the required vendor libraries:
-
-    curl -s http://getcomposer.org/installer | php
-    php composer.phar install
 
 
 RedKite CMS setup
@@ -68,6 +73,11 @@ To install RedKite CMS using the web interface, just point your browser at:
 Provide the required information and you are done! 
 
 
+Using another database intead of mysql, postgres, sqlite
+--------------------------------------------------------
+
+Please refer this document to use a database different than mysql, postgres or sqlite.
+
 Sign in
 -------
 RedKite CMS is secured by default and a new user is created when the application is 
@@ -82,7 +92,7 @@ enter the credentials above to sign in.
 Documentation
 -------------
 Although RedKite CMS is designed to be as simple and intuitive as possible, you probably 
-would like to go deeper reading some documentation:
+would like to go deeper, reading some documentation:
 
 - [The book](http://redkite-labs.com/getting-started-with-redkite-cms)
 - [The cookbook](http://redkite-labs.com/redkite-cms-practical-manual-part-1)

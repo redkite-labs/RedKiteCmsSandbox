@@ -4,16 +4,19 @@ php:
   - 5.3
   - 5.4
 
-#env:
-#  - SYMFONY_VERSION=v2.0.15
-#  - SYMFONY_VERSION=origin/2.0
-#  - SYMFONY_VERSION=origin/master
+env:
+ - DB=mysql
+ #- DB=pgsql
+ - DB=sqlite
 
 before_script:
-  - mysql -e 'create database alphalemon_test;'
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install --dev
-  - php app/console redkitecms:install --company=Acme --bundle=WebSiteBundle --dsn="mysql:host=localhost;port=3306;dbname=alphalemon_test" --user=root --password= --website-url=http://example.com/ --no-interaction
+  - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'create database redkite_test;'; fi"
+  - sh -c "if [ '$DB' = 'pgsql' ]; then psql -c 'create database redkite_test;' -U postgres; fi"
+  - sh -c "if [ '$DB' = 'sqlite' ]; then php app/console redkitecms:install --driver=sqlite --host=localhost --database=redkite_test --no-interaction; fi"
+  - sh -c "if [ '$DB' = 'mysql' ]; then php app/console redkitecms:install --driver=mysql --host=localhost --port=3306 --database=redkite_test --user=root --password= --no-interaction; fi"
+  - sh -c "if [ '$DB' = 'pgsql' ]; then php app/console redkitecms:install --driver=pgsql --host=localhost --port=5432 --database=redkite_test --user=postgres --password= --no-interaction; fi"
 
 script: phpunit -c app
 
