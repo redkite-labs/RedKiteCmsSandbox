@@ -6,7 +6,7 @@ php:
 
 env:
  - DB=mysql
- #- DB=pgsql
+ - DB=pgsql
  - DB=sqlite
 
 before_script:
@@ -17,6 +17,7 @@ before_script:
   - sh -c "if [ '$DB' = 'sqlite' ]; then php app/console redkitecms:install --driver=sqlite --host=localhost --database=redkite_test --no-interaction; fi"
   - sh -c "if [ '$DB' = 'mysql' ]; then php app/console redkitecms:install --driver=mysql --host=localhost --port=3306 --database=redkite_test --user=root --password= --no-interaction; fi"
   - sh -c "if [ '$DB' = 'pgsql' ]; then php app/console redkitecms:install --driver=pgsql --host=localhost --port=5432 --database=redkite_test --user=postgres --password= --no-interaction; fi"
+  - sh -c "php app/console propel:sql:insert --force --env=rkcms_test"
 
 script: phpunit -c app
 
