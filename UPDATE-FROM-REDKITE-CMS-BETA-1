@@ -1,5 +1,5 @@
-Updated from RedKite CMS Beta 1
-===============================
+Update from RedKite CMS Beta 1
+==============================
 
 This release introduces Twitter Bootstrap 3 and provides support for Twitter Bootstrap 2.x.
 Due to this improvement, the Twitter Bootstrap paths have been refactored as follows:
@@ -28,3 +28,14 @@ the previous step again.
 
 Please take note that removing the cache could not be enough to update assetic routes. For this reason,
 it's strongly suggestes to delete the ./web/css and .web/js folders, before running the assets:dump command.
+
+
+Blocks editor
+-------------
+
+The most of templates have been reorganized with Beta 2. In particular the base editor 
+RedKiteCmsBundle:Editor:base_editor.html.twig has been moved to RedKiteCmsBundle:Block:Editor/_editor.html.twig,
+so your block must point to the new path.
+
+The old file has been left in its original path to avoid compatibility breaks. These templates simply extend
+the new one.
