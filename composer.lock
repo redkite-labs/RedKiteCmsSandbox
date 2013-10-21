@@ -2226,7 +2226,119 @@
             "time": "2013-10-17 08:34:06"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "mikey179/vfsStream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream.git",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2012-08-25 12:49:29"
+        },
+        {
+            "name": "redkite-labs/sunshine-theme-bundle",
+            "version": "dev-master",
+            "target-dir": "RedKiteCms/Theme/SunshineThemeBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/redkite-themes/SunshineThemeBundle",
+                "reference": "d1af49e03a07a41de2e6c2078f47b729c4de437d"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "http://apps.redkite-labs.com/dist/redkite-labs-sunshine-theme-bundle-dev-master-deae76.tar",
+                "reference": "dev-master",
+                "shasum": "504d00b8a86b7eb093d91e9e01dfc50ae1e9946a"
+            },
+            "type": "redkite-cms-app",
+            "autoload": {
+                "psr-0": {
+                    "RedKiteCms\\Theme\\SunshineThemeBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "RedKite Labs",
+                    "email": "info@redkite-labs.com"
+                }
+            ],
+            "description": "An awesome RedKiteCms CMS app theme",
+            "homepage": "http://redkite-labs.com",
+            "keywords": [
+                "app",
+                "cms",
+                "redkite"
+            ],
+            "time": "2013-08-19 17:27:25"
+        },
+        {
+            "name": "willdurand/propel-typehintable-behavior",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/TypehintableBehavior.git",
+                "reference": "8d099aeffaecaa99af580ca395e8dc75d913aaa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/TypehintableBehavior/zipball/8d099aeffaecaa99af580ca395e8dc75d913aaa1",
+                "reference": "8d099aeffaecaa99af580ca395e8dc75d913aaa1",
+                "shasum": ""
+            },
+            "require": {
+                "propel/propel1": "~1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William DURAND",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "Insane Propel behavior that helps you to be compliant with third-party interfaces by adding type hint to generated methods.",
+            "keywords": [
+                "Behavior",
+                "propel",
+                "typehint"
+            ],
+            "time": "2013-08-17 16:18:03"
+        }
+    ],
     "aliases": [
 
     ],
