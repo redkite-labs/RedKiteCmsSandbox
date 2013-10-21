@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b5d86d04fdcd5ed5b3a3848e1206c308",
+    "hash": "cdaed0313efbf95248f1d762ebc499a2",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -179,7 +179,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/"
                 },
@@ -356,12 +356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "a41322d452354ee1e01b1e0f25c4f2ae3ca77ed3"
+                "reference": "2ed46398aae1b7699f6fe7467faf54493b4f2a24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a41322d452354ee1e01b1e0f25c4f2ae3ca77ed3",
-                "reference": "a41322d452354ee1e01b1e0f25c4f2ae3ca77ed3",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/2ed46398aae1b7699f6fe7467faf54493b4f2a24",
+                "reference": "2ed46398aae1b7699f6fe7467faf54493b4f2a24",
                 "shasum": ""
             },
             "require": {
@@ -417,7 +417,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2013-09-18 11:44:15"
+            "time": "2013-10-20 15:21:43"
         },
         {
             "name": "doctrine/inflector",
@@ -473,7 +473,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -845,12 +845,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "8e5a671eef6e1096d764e6f3524e6f732afa53b4"
+                "reference": "620922356a36d8903d213c986568fe159b530747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/8e5a671eef6e1096d764e6f3524e6f732afa53b4",
-                "reference": "8e5a671eef6e1096d764e6f3524e6f732afa53b4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/620922356a36d8903d213c986568fe159b530747",
+                "reference": "620922356a36d8903d213c986568fe159b530747",
                 "shasum": ""
             },
             "require": {
@@ -900,7 +900,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-10-11 16:18:40"
+            "time": "2013-10-16 16:27:10"
         },
         {
             "name": "phing/phing",
@@ -1096,18 +1096,18 @@
         },
         {
             "name": "redkite-cms/bootbusiness-product-bundle",
-            "version": "1.1.0-beta",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteCms/Block/BootbusinessBlockBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-blocks/BootbusinessBlockBundle",
-                "reference": "1.1.0-beta"
+                "reference": "1.1.0-beta2"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-cms-bootbusiness-product-bundle-1.1.0-beta-0fd3f5.tar",
-                "reference": "1.1.0-beta",
-                "shasum": "a64ae2d447041a30553ef52eaa7b51a90d5a3064"
+                "url": "http://apps.redkite-labs.com/dist/redkite-cms-bootbusiness-product-bundle-1.1.0-beta2-e3485e.tar",
+                "reference": "1.1.0-beta2",
+                "shasum": "5ba18af7ef8e5b5fc5a79b8743585b71ae5b46dd"
             },
             "require-dev": {
                 "redkite-labs/redkite-cms-bundle": "dev-master"
@@ -1134,22 +1134,22 @@
                 "cms",
                 "redkite"
             ],
-            "time": "2013-09-08 05:35:08"
+            "time": "2013-10-16 16:55:26"
         },
         {
             "name": "redkite-cms/installer-bundle",
-            "version": "1.1.0-beta1",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteCms/InstallerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-labs/InstallerBundle",
-                "reference": "1.1.0-beta1"
+                "reference": "1.1.0-beta2"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-cms-installer-bundle-1.1.0-beta1-318ba2.tar",
-                "reference": "1.1.0-beta1",
-                "shasum": "4c358310b117bf254e99fc7ab14485bdab0fdd0a"
+                "url": "http://apps.redkite-labs.com/dist/redkite-cms-installer-bundle-1.1.0-beta2-e3485e.tar",
+                "reference": "1.1.0-beta2",
+                "shasum": "36d93f4412e6df6d814cadefdfaa2c2d8a91cb59"
             },
             "require": {
                 "php": ">=5.3.2"
@@ -1179,66 +1179,22 @@
                 "installer",
                 "redkite"
             ],
-            "time": "2013-10-11 16:10:20"
-        },
-        {
-            "name": "redkite-cms/jstree-bundle",
-            "version": "dev-master",
-            "target-dir": "RedKiteCms/Block/JstreeBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/redkite-blocks/JstreeBundle",
-                "reference": "9839f16b625a2c2374e6abc673c81d30ddbe2924"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-cms-jstree-bundle-dev-master-84b15f.tar",
-                "reference": "dev-master",
-                "shasum": "f201b57a34ab786f1c4c73387ee59346cec8c90b"
-            },
-            "require-dev": {
-                "redkite-cms/redkite-cms-bundle": "dev-master",
-                "willdurand/propel-typehintable-behavior": "dev-master"
-            },
-            "type": "redkite-cms-app",
-            "autoload": {
-                "psr-0": {
-                    "RedKiteCms\\Block\\JstreeBundle": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "RedKite Labs",
-                    "email": "info@redkite-labs.com"
-                }
-            ],
-            "description": "Adds the Jstree jquery plugin to RedKite CMS",
-            "homepage": "http://redkite-labs.com",
-            "keywords": [
-                "cms",
-                "redkite",
-                "redkite cms",
-                "redkite labs"
-            ],
-            "time": "2013-08-28 17:36:17"
+            "time": "2013-10-19 05:16:28"
         },
         {
             "name": "redkite-cms/redkite-cms-base-blocks",
-            "version": "dev-master",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteCms/Block/RedKiteCmsBaseBlocksBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-blocks/RedKiteCmsBaseBlocksBundle",
-                "reference": "e68dc4ecefca180b199886290964e3296e98ce4d"
+                "reference": "1.1.0-beta2"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-cms-redkite-cms-base-blocks-dev-master-2f7bc1.tar",
-                "reference": "dev-master",
-                "shasum": "7c81e8d2b5be41afb7cbcc276f88a2d0e5f65587"
+                "url": "http://apps.redkite-labs.com/dist/redkite-cms-redkite-cms-base-blocks-1.1.0-beta2-e3485e.tar",
+                "reference": "1.1.0-beta2",
+                "shasum": "936835a281a1bb54a3756b231ee0036f67375ebc"
             },
             "require-dev": {
                 "mikey179/vfsstream": "1.1.0",
@@ -1268,21 +1224,21 @@
                 "redkite cms",
                 "redkite labs"
             ],
-            "time": "2013-09-17 11:36:02"
+            "time": "2013-10-18 10:50:49"
         },
         {
             "name": "redkite-cms/redkite-cms-bundle",
-            "version": "1.1.0-beta1",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteLabs/RedKiteCmsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-labs/RedKiteCmsBundle.git",
-                "reference": "0212cab4f8813961357a4e236c7dbe84acb3c154"
+                "reference": "822f2eb93c93d28da96a9de6d8eb25ff88994032"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/redkite-labs/RedKiteCmsBundle/zipball/0212cab4f8813961357a4e236c7dbe84acb3c154",
-                "reference": "0212cab4f8813961357a4e236c7dbe84acb3c154",
+                "url": "https://api.github.com/repos/redkite-labs/RedKiteCmsBundle/zipball/822f2eb93c93d28da96a9de6d8eb25ff88994032",
+                "reference": "822f2eb93c93d28da96a9de6d8eb25ff88994032",
                 "shasum": ""
             },
             "require": {
@@ -1291,9 +1247,9 @@
                 "php": ">=5.3.3",
                 "propel/propel-bundle": "1.2.*",
                 "propel/propel1": "1.6.*",
-                "redkite-labs/redkite-labs-bootstrap-bundle": "dev-master",
-                "redkite-labs/redkite-labs-elfinder-bundle": "dev-master",
-                "redkite-labs/redkite-labs-theme-engine-bundle": "dev-master"
+                "redkite-labs/redkite-labs-bootstrap-bundle": "~1.1.0-beta",
+                "redkite-labs/redkite-labs-elfinder-bundle": "~1.1.0-beta",
+                "redkite-labs/redkite-labs-theme-engine-bundle": "~1.1.0-beta"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -1338,22 +1294,22 @@
                 "redkite cms",
                 "redkite labs"
             ],
-            "time": "2013-10-12 07:54:23"
+            "time": "2013-10-21 03:51:08"
         },
         {
             "name": "redkite-cms/tinymce-block-bundle",
-            "version": "dev-master",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteCms/Block/TinyMceBlockBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-blocks/TinyMceBlockBundle",
-                "reference": "5be8865f16b0d0b68fbc5bdb2f606790e142b9e1"
+                "reference": "1.1.0-beta2"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-cms-tinymce-block-bundle-dev-master-e38220.tar",
-                "reference": "dev-master",
-                "shasum": "a07fe844bce191d1b97234380d8d7965c28a5bbe"
+                "url": "http://apps.redkite-labs.com/dist/redkite-cms-tinymce-block-bundle-1.1.0-beta2-e3485e.tar",
+                "reference": "1.1.0-beta2",
+                "shasum": "35aa3d64846a27806f9977b718e3dca0f3d11685"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -1394,25 +1350,22 @@
                 "cms",
                 "redkite"
             ],
-            "time": "2013-09-19 04:14:20"
+            "time": "2013-10-18 10:51:55"
         },
         {
             "name": "redkite-cms/twitter-bootstrap",
-            "version": "1.1.0-beta",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteCms/Block/TwitterBootstrapBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-blocks/TwitterBootstrapBundle",
-                "reference": "1.1.0-beta"
+                "reference": "1.1.0-beta2"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-cms-twitter-bootstrap-1.1.0-beta-0fd3f5.tar",
-                "reference": "1.1.0-beta",
-                "shasum": "6a29b9f226570f0946e2a47927becd9ddbf330ce"
-            },
-            "require": {
-                "redkite-cms/jstree-bundle": "dev-master"
+                "url": "http://apps.redkite-labs.com/dist/redkite-cms-twitter-bootstrap-1.1.0-beta2-e3485e.tar",
+                "reference": "1.1.0-beta2",
+                "shasum": "76670ece6e0d6523daa5893f3340745513fa2094"
             },
             "require-dev": {
                 "redkite-cms/redkite-cms-base-blocks": "dev-master",
@@ -1442,26 +1395,26 @@
                 "redkite cms",
                 "redkite labs"
             ],
-            "time": "2013-09-17 11:28:52"
+            "time": "2013-10-19 03:29:23"
         },
         {
             "name": "redkite-labs/bootbusiness-theme-bundle",
-            "version": "dev-master",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteCms/Theme/BootbusinessThemeBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-themes//BootbusinessThemeBundle",
-                "reference": "621a5afdd6b639d0d3f37d62478419b4030b194b"
+                "reference": "1.1.0-beta2"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-labs-bootbusiness-theme-bundle-dev-master-aa9b11.tar",
-                "reference": "dev-master",
-                "shasum": "0f4099612a81757e538a8a9ae8c8ba9e44f067d0"
+                "url": "http://apps.redkite-labs.com/dist/redkite-labs-bootbusiness-theme-bundle-1.1.0-beta2-e3485e.tar",
+                "reference": "1.1.0-beta2",
+                "shasum": "3dc8bfd7d809c284879623bec555989677a568da"
             },
             "require": {
-                "redkite-cms/bootbusiness-product-bundle": "1.1.0-beta",
-                "redkite-cms/twitter-bootstrap": "1.1.0-beta"
+                "redkite-cms/bootbusiness-product-bundle": "~1.1.0-beta",
+                "redkite-cms/twitter-bootstrap": "~1.1.0-beta"
             },
             "type": "redkite-cms-app",
             "autoload": {
@@ -1486,11 +1439,11 @@
                 "redkite",
                 "theme"
             ],
-            "time": "2013-09-19 04:42:46"
+            "time": "2013-10-21 04:05:36"
         },
         {
             "name": "redkite-labs/redkite-labs-bootstrap-bundle",
-            "version": "dev-master",
+            "version": "1.1.0-beta",
             "target-dir": "RedKiteLabs/BootstrapBundle",
             "source": {
                 "type": "git",
@@ -1550,7 +1503,7 @@
         },
         {
             "name": "redkite-labs/redkite-labs-elfinder-bundle",
-            "version": "dev-master",
+            "version": "1.1.0-beta",
             "target-dir": "RedKiteLabs/ElFinderBundle",
             "source": {
                 "type": "git",
@@ -1598,17 +1551,17 @@
         },
         {
             "name": "redkite-labs/redkite-labs-theme-engine-bundle",
-            "version": "dev-master",
+            "version": "1.1.0-beta2",
             "target-dir": "RedKiteLabs/ThemeEngineBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redkite-labs/ThemeEngineBundle.git",
-                "reference": "73215112477cbdd666a085ed454b12b2b76f6dc0"
+                "reference": "7d306a6aca0a29e1fc573f674d6422133b33153b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/redkite-labs/ThemeEngineBundle/zipball/73215112477cbdd666a085ed454b12b2b76f6dc0",
-                "reference": "73215112477cbdd666a085ed454b12b2b76f6dc0",
+                "url": "https://api.github.com/repos/redkite-labs/ThemeEngineBundle/zipball/7d306a6aca0a29e1fc573f674d6422133b33153b",
+                "reference": "7d306a6aca0a29e1fc573f674d6422133b33153b",
                 "shasum": ""
             },
             "require": {
@@ -1652,7 +1605,7 @@
                 "theme",
                 "themes"
             ],
-            "time": "2013-10-12 06:23:52"
+            "time": "2013-10-18 16:14:56"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1754,12 +1707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "766205eccd54314beec018a13d6f7fd0c42d45a1"
+                "reference": "e2572e829cc7b3d37c8fc46c9dfad9362378aad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/766205eccd54314beec018a13d6f7fd0c42d45a1",
-                "reference": "766205eccd54314beec018a13d6f7fd0c42d45a1",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/e2572e829cc7b3d37c8fc46c9dfad9362378aad1",
+                "reference": "e2572e829cc7b3d37c8fc46c9dfad9362378aad1",
                 "shasum": ""
             },
             "require": {
@@ -1793,7 +1746,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2013-09-23 18:03:41"
+            "time": "2013-10-15 18:51:32"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2182,12 +2135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig-extensions.git",
-                "reference": "3604161a4aa2e5c535cbc708810123fd3258b2dc"
+                "reference": "f91a82ec225e5bb108e01a0f93c9be04f84dcfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig-extensions/zipball/3604161a4aa2e5c535cbc708810123fd3258b2dc",
-                "reference": "3604161a4aa2e5c535cbc708810123fd3258b2dc",
+                "url": "https://api.github.com/repos/fabpot/Twig-extensions/zipball/f91a82ec225e5bb108e01a0f93c9be04f84dcfa0",
+                "reference": "f91a82ec225e5bb108e01a0f93c9be04f84dcfa0",
                 "shasum": ""
             },
             "require": {
@@ -2221,7 +2174,7 @@
                 "i18n",
                 "text"
             ],
-            "time": "2013-09-27 20:07:42"
+            "time": "2013-10-18 19:37:15"
         },
         {
             "name": "twig/twig",
@@ -2229,12 +2182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "09c386b3359cc22b4112197c2d8c6d6f7a49c918"
+                "reference": "27bd8b185f9e7e217952de05756fdfce6bdc4673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/09c386b3359cc22b4112197c2d8c6d6f7a49c918",
-                "reference": "09c386b3359cc22b4112197c2d8c6d6f7a49c918",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/27bd8b185f9e7e217952de05756fdfce6bdc4673",
+                "reference": "27bd8b185f9e7e217952de05756fdfce6bdc4673",
                 "shasum": ""
             },
             "require": {
@@ -2270,130 +2223,15 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-07 10:00:50"
+            "time": "2013-10-17 08:34:06"
         }
     ],
-    "packages-dev": [
-        {
-            "name": "mikey179/vfsStream",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
-                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "org\\bovigo\\vfs": "src/main/php"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "homepage": "http://vfs.bovigo.org/",
-            "time": "2012-08-25 12:49:29"
-        },
-        {
-            "name": "redkite-labs/sunshine-theme-bundle",
-            "version": "dev-master",
-            "target-dir": "RedKiteCms/Theme/SunshineThemeBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/redkite-themes/SunshineThemeBundle",
-                "reference": "d1af49e03a07a41de2e6c2078f47b729c4de437d"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "http://apps.redkite-labs.com/dist/redkite-labs-sunshine-theme-bundle-dev-master-deae76.tar",
-                "reference": "dev-master",
-                "shasum": "504d00b8a86b7eb093d91e9e01dfc50ae1e9946a"
-            },
-            "type": "redkite-cms-app",
-            "autoload": {
-                "psr-0": {
-                    "RedKiteCms\\Theme\\SunshineThemeBundle": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "RedKite Labs",
-                    "email": "info@redkite-labs.com"
-                }
-            ],
-            "description": "An awesome RedKiteCms CMS app theme",
-            "homepage": "http://redkite-labs.com",
-            "keywords": [
-                "app",
-                "cms",
-                "redkite"
-            ],
-            "time": "2013-08-19 17:27:25"
-        },
-        {
-            "name": "willdurand/propel-typehintable-behavior",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/willdurand/TypehintableBehavior.git",
-                "reference": "8d099aeffaecaa99af580ca395e8dc75d913aaa1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/TypehintableBehavior/zipball/8d099aeffaecaa99af580ca395e8dc75d913aaa1",
-                "reference": "8d099aeffaecaa99af580ca395e8dc75d913aaa1",
-                "shasum": ""
-            },
-            "require": {
-                "propel/propel1": "~1.6"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "William DURAND",
-                    "email": "william.durand1@gmail.com",
-                    "homepage": "http://www.willdurand.fr"
-                }
-            ],
-            "description": "Insane Propel behavior that helps you to be compliant with third-party interfaces by adding type hint to generated methods.",
-            "keywords": [
-                "Behavior",
-                "propel",
-                "typehint"
-            ],
-            "time": "2013-08-17 16:18:03"
-        }
-    ],
+    "packages-dev": null,
     "aliases": [
 
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "redkite-labs/bootbusiness-theme-bundle": 20,
-        "redkite-cms/redkite-cms-base-blocks": 20,
-        "redkite-cms/tinymce-block-bundle": 20,
         "willdurand/propel-typehintable-behavior": 20,
         "redkite-labs/sunshine-theme-bundle": 20
     },
