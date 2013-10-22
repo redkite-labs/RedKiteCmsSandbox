@@ -22,9 +22,10 @@ required vendor libraries installed. Follow the links to have more details about
 
 Install the RedKite CMS Sandbox without vendors
 -----------------------------------------------
-From your console run the following command:
+Download the latest RedKite CMS Sandbox from releases page:
 
-    git clone https://github.com/redkite-labs/RedKiteCmsSandbox.git
+
+    https://github.com/redkite-labs/RedKiteCmsSandbox/releases
 
 
 To install the RedKite CMS Sandbox vendors libraries, just open a console, move to 
