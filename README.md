@@ -20,19 +20,24 @@ to the [RedKite CMS Sandbox](http://redkite-labs.com/download-redkite-cms-sandbo
 required vendor libraries installed. Follow the links to have more details about those products.
 
 
-Install the RedKite CMS Sandbox without vendors
------------------------------------------------
-Download the latest RedKite CMS Sandbox from releases page:
+Install RedKite CMS Sandbox
+---------------------------
+The quick way to install RedKite CMS Sandbox is to use composer, so get it running
+the following command:
 
+    curl -s http://getcomposer.org/installer | php
+
+then run the following command:
+
+    php composer.phar create-project redkite-labs/redkite-cms-sandbox -s beta RedKiteCmsSandbox
+
+Alternatively you can download the latest release from releases page:
 
     https://github.com/redkite-labs/RedKiteCmsSandbox/releases
 
+then move to the root folder and grab composer as explained at the beginning of this paragraph 
+and run this command to install the required vendor libraries:
 
-To install the RedKite CMS Sandbox vendors libraries, just open a console, move to 
-the root folder and give the following command to download composer and install the 
-required vendor libraries:
-
-    curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
 
