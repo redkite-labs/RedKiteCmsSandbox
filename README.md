@@ -86,7 +86,7 @@ Provide the required information and you are done!
 Using another database intead of mysql, postgres, sqlite
 --------------------------------------------------------
 
-Please refer this document to use a database different than mysql, postgres or sqlite.
+Please refer [this document](http://redkitelabs/rkcms_dev.php/backend/en/download-redkite-cms-sandbox#use-another-database-instead-of-mysql-postgres-or-sqlite) to use a database different than mysql, postgres or sqlite.
 
 Sign in
 -------
