@@ -27,9 +27,13 @@ the following command:
 
     curl -s http://getcomposer.org/installer | php
 
-then run the following command:
+then run the following command to get the latest RC:
 
-    php composer.phar create-project redkite-labs/redkite-cms-sandbox -s beta RedKiteCmsSandbox
+    php composer.phar create-project redkite-labs/redkite-cms-sandbox -s RC RedKiteCmsSandbox
+
+or run this one to get the develop branch:
+
+    php composer.phar create-project redkite-labs/redkite-cms-sandbox -s dev RedKiteCmsSandbox
 
 Alternatively you can download the latest release from releases page:
 
