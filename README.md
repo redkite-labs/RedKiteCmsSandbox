@@ -29,7 +29,7 @@ the following command:
 
 then run the following command to get the latest RC:
 
-    php composer.phar create-project redkite-labs/redkite-cms-sandbox -s stable RedKiteCmsSandbox
+    php composer.phar create-project redkite-labs/redkite-cms-sandbox -s stable RedKiteCmsSandbox --no-dev
 
 or run this one to get the develop branch:
 
