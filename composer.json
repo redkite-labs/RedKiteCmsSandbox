@@ -1,6 +1,7 @@
 {
     "name": "redkite-labs/redkite-cms-sandbox",
-    "description": "The \"AlphaLemon CMS Sandbox\" distribution",
+    "description": "The \"RedKite CMS Sandbox\" distribution",
+    "license": "MIT",
     "autoload": {
         "psr-0": { "": "src/" }
     },
