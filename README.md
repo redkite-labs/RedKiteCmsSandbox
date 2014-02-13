@@ -1,7 +1,7 @@
 RedKite CMS Sandbox
 ===================
 Welcome to RedKite CMS Sandbox - a fully-functional Symfony2 application powered by 
-RedKite CMS. You can use this application as skeleton for  your new project or to test 
+RedKite CMS. You can use this application as skeleton for your new project or to test 
 the CMS itself.
 
 This document contains information on how to download and to start using RedKite CMS.
@@ -45,12 +45,6 @@ and run this command to install the required vendor libraries:
     php composer.phar install
 
 
-Permissions
------------
-Setup the permissions on the installation folder as explained in the [symfony2 setup and configuration
-tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
-
-
 RedKite CMS setup
 -----------------
 RedKite CMS requires several steps to be accomplished to properly setup the CMS itself. Luckily
@@ -58,6 +52,30 @@ the **RedKiteCmsInstallerBundle** will do all the job for you.
 
 This bundle provides a web installer interface or an interactive symdony2 command to install 
 RedKite CMS.
+
+Permissions
+-----------
+Before starting you must be sure that following folders and files are writable:
+
+    app/cache
+    app/logs
+    app/config
+    web
+    app/AppKernel.php
+    app/config/config.yml
+    app/config/routing.yml
+    app/config/parameters.yml
+ 
+because RedKite CMS installer will update them for you. If you prefer to setup RedKite CMS manually just
+follow this guide: http://redkite-labs.com/how-to-install-redkite-cms.
+
+The best way to set up you permissions is using ACL:
+
+    sudo setfacl -R -m u:www-data:rwx -m u:[USERNAME]:rwx *
+    sudo setfacl -dR -m u:www-data:rwx -m u:[USERNAME]:rwx *
+
+To get more details, please refer to the [symfony2 setup and configuration tutorial](http://symfony.com/doc/current/book/installation.html#configuration-and-setup)
+
 
 Installing from the console
 ---------------------------
