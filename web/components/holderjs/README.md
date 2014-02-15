@@ -1,9 +1,13 @@
 Holder
 ======
 
-Holder uses the `canvas` element and the data URI scheme to render image placeholders entirely in browser.
+![](http://imsky.github.io/holder/images/header.png)
 
-[Bootstrap](http://twitter.github.com/bootstrap/) uses Holder for thumbnails.
+Holder uses SVG and `canvas` to render image placeholders on the client side.
+
+[Bootstrap](http://getbootstrap.com) uses Holder in documentation.
+
+You can install Holder using [Bower](http://bower.io/): `bower install holderjs`
 
 How to use it
 -------------
@@ -24,10 +28,17 @@ The above tag will render as a placeholder 200 pixels wide and 300 pixels tall.
 
 To avoid console 404 errors, you can use ``data-src`` instead of ``src``.
 
-Holder also includes support for themes, to help placeholders blend in with your layout. There are 3 default themes: ``gray``, ``industrial``, and ``social``. You can use them like this:
+Theming
+-------
+
+![](http://imsky.github.io/holder/images/holder_sky.png)![](http://imsky.github.io/holder/images/holder_vine.png)![](http://imsky.github.io/holder/images/holder_lava.png)
+
+Holder includes support for themes, to help placeholders blend in with your layout. 
+
+There are 6 default themes: ``sky``, ``vine``, ``lava``, ``gray``, ``industrial``, and ``social``. Use them like so:
 
 ```html
-<img src="holder.js/200x300/industrial">
+<img src="holder.js/200x300/sky">
 ```
 
 Customizing themes
@@ -118,7 +129,7 @@ Specifying a dimension in percentages creates a fluid placeholder that responds 
 <img data-src="holder.js/100%x75/social">
 ```
 
-By default, the fluid placeholder will show its current size in pixels.
+By default, the fluid placeholder will show its current size in pixels. To display the original dimensions, i.e. 100%x75, set the ``textmode`` flag to ``literal`` like so: `holder.js/100%x75/textmode:literal`.
 
 Automatically sized placeholders
 --------------------------------
@@ -130,6 +141,8 @@ If you'd like to avoid Holder enforcing an image size, use the ``auto`` flag lik
 ```
 
 The above will render a placeholder without any embedded CSS for height or width.
+
+To show the current size of an automatically sized placeholder, set the ``textmode`` flag to ``exact`` like so: `holder.js/200x200/auto/textmode:exact`.
 
 Background placeholders
 -----------------------
@@ -171,6 +184,15 @@ Holder.add_theme("new",{foreground:"#ccc", background:"#000", size:10}).add_imag
 
 The first argument in ``add_image`` is the ``src`` attribute, and the second is a CSS selector of the parent element.
 
+Changing rendering engine
+-------------------------
+
+By default, Holder renders placeholders using SVG, however it has a fallback `canvas` engine that it uses in case the browser lacks SVG support. If you'd like to force `canvas` rendering, you can do it like so:
+
+```js
+Holder.run({use_canvas:true})
+```
+
 Using with ``lazyload.js``
 --------------------------
 
@@ -179,16 +201,16 @@ Holder is compatible with ``lazyload.js`` and works with both fluid and fixed-wi
 Browser support
 ---------------
 
-* Chrome 1+
+* Chrome
 * Firefox 3+
 * Safari 4+
-* Internet Explorer 9+, with fallback for IE6-8
-* Android 1+
+* Internet Explorer 6+ (with fallback for older IE)
+* Android (with fallback)
 
 License
 -------
 
-Holder is provided under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0). Commercial use requires attribution.
+Holder is provided under the [MIT License](http://opensource.org/licenses/MIT).
 
 Credits
 -------

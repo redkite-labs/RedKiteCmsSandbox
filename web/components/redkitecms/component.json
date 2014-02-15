@@ -1,19 +1,9 @@
 {
-  "name": "alphalemoncms",
-  "version": "0.0.0",
+  "name" : "redkitecms.component",
+  "version" : "1.1.0",
   "dependencies": {
     "jquery": "~1.8.3",
     "jquery-easing": "*",
     "holderjs": "*"
-  },
-  "gitHead": "9db6f5b8edf9243e4241a33ee5d232c636818c51",
-  "readme": "AlphaLemon CMS bower package \n",
-  "readmeFilename": "README.md",
-  "_id": "alphalemon.component@1.0.4",
-  "description": "AlphaLemon CMS bower package",
-  "commit": "9db6f5b8edf9243e4241a33ee5d232c636818c51",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alphalemon/alphalemoncms-component.git"
   }
 }
