@@ -1,1 +1,1 @@
-AlphaLemon CMS bower package 
+RedKite CMS bower package 

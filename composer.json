@@ -33,13 +33,13 @@
         "redkite-cms/redkite-cms-bundle": "1.1.*",
         "redkite-cms/installer-bundle": "1.1.*",
     	"redkite-labs/bootbusiness-theme-bundle": "1.1.*",
+        "redkite-labs/modern-business-theme-bundle": "1.1.*",
         "redkite-cms/redkite-cms-base-blocks": "1.1.*",
 	    "redkite-cms/tinymce-block-bundle": "1.1.*"
     },
     "require-dev": {    
       "willdurand/propel-typehintable-behavior": "dev-master",  
-      "mikey179/vfsStream": "1.1.0", 
-      "redkite-labs/sunshine-theme-bundle": "dev-master"
+      "mikey179/vfsStream": "1.1.0"
     },
     "scripts": {
         "post-install-cmd": [
